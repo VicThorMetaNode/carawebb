@@ -1,0 +1,40 @@
+.landing-page {
+    min-height: 100vh;
+    background: url(../../dist/images/cat-han-URi_yR9qtgs-unsplash.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.landing-page-section-title {
+padding-top: 10rem;
+}
+
+.landing-page-section-subtitle {
+padding-top: 1.3rem;
+}
+
+.landing-page-btn {
+    padding-top: 1.3rem;
+}
+
+.landing-page-title {
+font-family: var(--ft-cara-title);
+color: var(--clr-txt-yellow);
+font-weight: 100;
+text-align: right;
+line-height: 4rem;
+}
+
+.landing-page-subtitle {
+font-family: var(--ft-gothic);
+color: var(--clr-txt-white);
+font-weight: 100 !important ;
+text-align: right;
+line-height: 2rem;
+}
+
+.landing-page-btn {
+text-align: right;
+}

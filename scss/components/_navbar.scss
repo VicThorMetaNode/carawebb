@@ -1,0 +1,17 @@
+/*----------------------------- LOGO CUSTOMIZE  ---------------------*/
+
+.landing-page-navbar-logo-partOne {
+font-family: var(--ft-cara-logo);
+font-size: var(--font-size-14);
+color: var(--clr-txt-yellow);
+font-weight: 100;
+}
+
+.landing-page-navbar-logo-partTwo {
+font-family: var(--ft-gothic);
+font-size: var(--font-size-12);
+color: var(--clr-txt-white);
+font-weight: 100 !important ;
+text-transform: uppercase;
+padding-top: 1px;
+}
