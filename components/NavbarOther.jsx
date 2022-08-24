@@ -19,6 +19,7 @@ import {
 //-------------- Import ICONS --------------
 import { GoThreeBars } from "react-icons/go";
 import { ImPinterest2, ImInstagram } from "react-icons/im";
+import { BiMinus, BiPlus } from "react-icons/bi";
 const NavbarOther = () => {
   //TOGGLE
   const [showMore, setShowMore] = useState(false);
@@ -53,32 +54,52 @@ const NavbarOther = () => {
                   <GoThreeBars />
                 </MenuButton>
                 <MenuList bg="#322F28" color="#A6A6A6">
-                  <MenuGroup>
-                    <MenuItem justifyContent="right" alignItems="right" mt={2}>
-                      <Link href="/about">ABOUT</Link>
-                    </MenuItem>
-                    <MenuItem justifyContent="right" alignItems="right">
-                      <Stack direction="row">
-                        <Box>
-                          <button
-                            className=" btn-menu-plus"
-                            onClick={() => setShowMore(!showMore)}
+                  <MenuItem justifyContent="right" alignItems="right" mt={2}>
+                    <Link href="/about">ABOUT</Link>
+                  </MenuItem>
+
+                  <Stack
+                    direction="row"
+                    justifyContent="right"
+                    alignItems="right"
+                  >
+                    <Box>
+                      <button
+                        className=" btn-menu-plus"
+                        onClick={() => setShowMore(!showMore)}
+                      >
+                        {showMore ? (
+                          <BiMinus fontSize={24} className="icon-minus" />
+                        ) : (
+                          <BiPlus fontSize={24} className="icon-plus" />
+                        )}
+                      </button>
+                    </Box>
+                    <MenuGroup title="SERVICES" className="menuGroup">
+                      {showMore && (
+                        <>
+                          {" "}
+                          <MenuItem justifyContent="right" alignItems="right">
+                            interior projects
+                          </MenuItem>
+                          <MenuItem
+                            justifyContent="right"
+                            alignItems="right"
+                            textAlign={"right"}
                           >
-                            {showMore ? <p>-</p> : <p>+</p>}{" "}
-                          </button>
-                        </Box>
-                        <Box>
-                          <Link href="/about"> SERVICES</Link>
-                        </Box>
-                      </Stack>
-                    </MenuItem>
-                    <MenuItem justifyContent="right" alignItems="right">
-                      <Link href="/about"> VISUAL DIARY</Link>
-                    </MenuItem>
-                    <MenuItem justifyContent="right" alignItems="right" mb={4}>
-                      <Link href="/contact"> CONTACT US</Link>
-                    </MenuItem>
-                  </MenuGroup>
+                            commercial projects <br /> & home staging{" "}
+                          </MenuItem>{" "}
+                        </>
+                      )}
+                    </MenuGroup>
+                  </Stack>
+                  <MenuItem justifyContent="right" alignItems="right">
+                    <Link href="/about"> VISUAL DIARY</Link>
+                  </MenuItem>
+                  <MenuItem justifyContent="right" alignItems="right" mb={4}>
+                    <Link href="/contact"> CONTACT US</Link>
+                  </MenuItem>
+
                   <Divider />
                   <Stack
                     justifyContent="right"

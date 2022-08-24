@@ -16,7 +16,7 @@ import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 
 const interiorProjects = () => {
   //TOGGLE
-  const [showMore, setShowMore] = useState(false);
+
   return (
     <>
       <section className="interior-project-page-section">

@@ -4,8 +4,27 @@
     height: 50px;
 }
 
+.menuGroup {
+    display: flex !important;
+    justify-content: right !important;
+    align-items: inherit;
+}
 
+.nav-menu-main-item {
+    font-family: var(--ft-cara-title);
+    font-size: var(--font-size-20);
+    color: var(--clr-txt-white);
+    font-weight: 100 !important ;
+    text-transform: uppercase;
+}
 
+.nav-menu-secondary-item {
+    font-family: var(--ft-cara-text);
+    font-size: var(--font-size-17);
+    color: var(--clr-txt-white);
+    font-weight: 100 !important ;
+    text-transform: lowercase;
+}
 
 /*----------------------------- LOGO CUSTOMIZE  ---------------------*/
 
@@ -23,5 +42,14 @@ color: var(--clr-txt-white);
 font-weight: 100 !important ;
 text-transform: uppercase;
 padding-top: 1px;
+}
+
+
+/*----------------------------- ICONS CUSTOMIZE  ---------------------*/
+.icon-minus{
+margin-right: 1.5rem ;
+}
+.icon-plus { 
+ margin-right: 5.21rem ;
 }
 
