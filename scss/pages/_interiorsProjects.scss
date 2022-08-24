@@ -1,112 +1,168 @@
 /*------------------ GLOBAL PART  ------------------*/
 
 .interior-project-page-section {
-    min-height: 100vh;
-  }
+  min-height: 100vh;
+  background-color: var(--clr-bg-light-grey);
+}
 
 /*------------------ UPPER PART  ------------------*/
-.interior-project-container{
+// .interior-project-container {
+// }
 
-}
+// /*------ BOXES ----*/
+// .interior-project-title-box {
+// }
 
-/*------ BOXES ----*/
-.interior-project-title-box {
-
-}
-
-.interior-project-subtitle-box {
-
-}
+// .interior-project-subtitle-box {
+// }
 
 .interior-project-text-box {
-
+  margin-top: 1.5rem !important;
 }
+
 
 
 /*------ TITLES AND TEXTS ----*/
 .interior-project-title {
-    font-family: var(--ft-cara-title);
-    font-size: var(--font-size-25);
-    color: var(--clr-txt-black-dark);
-    text-align:center;
-    font-weight: 600;
-    letter-spacing: 0.1px;
-    text-transform: uppercase;
+  font-family: var(--ft-cara-title);
+  font-size: var(--font-size-25);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
 }
 
 .interior-project-subtitle {
-    font-family: var(--ft-cara-title);
-    font-size: var(--font-size-22);
-    color: var(--clr-txt-black-dark);
-    text-align:center;
-    font-weight: 200;  
-    text-transform: uppercase; 
+  font-family: var(--ft-cara-title);
+  font-size: var(--font-size-22);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 200;
+  text-transform: uppercase;
 }
 
 .interior-project-text {
-    font-family: var(--ft-cara-text);
-    font-size: var(--font-size-23);
-    color: var(--clr-txt-black-dark);
-    text-align:center;
-    font-weight: 400;  
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-23);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 400;
 }
+
+
 
 /*------------------ SWIPE SECTION  ------------------*/
 .interior-project-swipe-section {
-
+  margin: 2rem;
 }
 
+// .project-swiper-container {
+//   background: url(../../dist/images/augustine-wong-T0BYurbDK_M-unsplash.jpg) no-repeat center center fixed;
+//   background-size: cover;
+//   // -webkit-background-size: cover;
+//   // -moz-background-size: cover;
+//   // -o-background-size: cover;
+
+  
+//   height: 300px;
+//   position: absolute;
+//   left: 50%;
+//   top: 50%;
+//   transform: translate(-50%, -50%);
+//   padding-top: 4rem;
+// }
+
+.project-swiper-div {
+  background-color: var(--clr-bg-dark-grey);
+  border: 1px solid black;
+}
+
+
+.project-swiper-div-center {
+  margin-bottom: 4rem;
+}
+
+
+
+.swiper-slide {
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.project-swiper-title {
+  font-family: var(--ft-cara-title);
+  font-size: var(--font-size-36);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 400;
+}
+
+.project-swiper-text {
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-20);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 400;
+}
+
+.all-inclusive {
+  font-family: var(--ft-cara-title);
+  font-size: var(--font-size-36);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 400;
+  text-transform: nowrap;
+}
 
 /*------------------ BOTTOM SECTION  ------------------*/
 /*------ BOXES ----*/
 .interior-project-bottom-section {
-
+  margin-top: -2rem;
 }
 
-.interior-project-bottom-swipe-box {
+// .interior-project-bottom-swipe-box {
+// }
 
+
+
+.interior-project-bottom-text-section {
+  
+  margin-top: 2rem !important;
 }
-
-.interior-project-bottom-button-box {
-
-}
-
-
-
 
 /*------ TITLES AND TEXTS ----*/
 .interior-project-bottom-swipe-text {
-    font-family: var(--ft-cara-text);
-    font-size: var(--font-size-17);
-    color: var(--clr-txt-black-dark);
-    text-align:center;
-    font-weight: 100;
-    text-transform:lowercase;
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-17);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 100;
+  text-transform: lowercase;
 }
 
 .interior-project-bottom-textOne {
-    font-family: var(--ft-cara-text);
-    font-size: var(--font-size-17);
-    color: var(--clr-txt-black-dark);
-    text-align:center;
-    font-weight: 300;
-    
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-17);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 300;
 }
 
 .interior-project-bottom-textTwo {
-    font-family: var(--ft-cara-text);
-    font-size: var(--font-size-14);
-    color: var(--clr-txt-black-dark);
-    text-align:center;
-    font-weight: 100;
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-14);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 100;
 }
-
 
 /*------ ICONS & BUTTONS ----*/
 .arrow-swipe-icon {
-    color: var(--clr-txt-black-light);
+  color: var(--clr-txt-black-light);
 }
 
 .interior-project-bottom-button-box {
-    padding-left: 2rem;
+  margin-bottom: 1.5rem !important;
 }

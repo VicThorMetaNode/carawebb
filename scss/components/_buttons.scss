@@ -34,3 +34,37 @@
     padding: var.$padding-y-btn !important;
     text-transform: uppercase;
 }
+
+.btn-plus {
+    background-color: var(--clr-btn-contact) !important;
+    font-family: var(--ft-gothic) ;
+    font-size: var(--font-size-14) !important;
+    color: var(--clr-txt-white);
+    border-radius: 0 !important;
+    border: 0.5px solid var(--clr-txt-white) !important;
+    padding: var.$padding-y-btn !important;
+    text-transform: uppercase;
+   
+}
+
+.btn-minus {
+    background-color: var(--clr-btn-other) !important;
+    font-family: var(--ft-gothic) ;
+    font-size: var(--font-size-14) !important;
+    color: var(--clr-txt-white);
+    border-radius: 0 !important;
+    border: 0.5px solid var(--clr-txt-white) !important;
+    padding: var.$padding-y-btn !important;
+    text-transform: uppercase;
+
+}
+
+.btn-invisible {
+    background-color: transparent !important;
+    font-family: var(--ft-gothic) ;
+    font-size: var(--font-size-14) !important;
+    color: transparent;
+ 
+    padding: var.$padding-y-btn !important;
+    text-transform: uppercase;
+}

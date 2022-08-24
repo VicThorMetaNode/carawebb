@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 import { Box, Text, VStack, Container, Flex } from "@chakra-ui/react";
 
 //------ IMPORT COMPONENTS
-import Navbar from "../components/Navbar";
+import Navbar from "../components/NavbarOther";
 import aboutPict from "../dist/images/about-img.png";
 
 import { BsArrowUp } from "react-icons/bs";
 
 const about = () => {
+  //TOGGLE
+  const [showMore, setShowMore] = useState(false);
   return (
     <>
       <section className="about-page">
@@ -26,23 +28,33 @@ const about = () => {
               <br /> <br />
               But, at the end of the day, all we are looking for is that homey
               feeling and create unforgettable memories with our loved ones.
-              <br /> <br />
-              <em>"Feeling at home"</em> can look different for everyone. Some
-              people want a quiet place to unwind, while others need something
-              vibrant, where they can host memorable dinner parties with
-              friends.
-              <br /> <br />
-              <span className="about-page-keyword">Our job</span> , and passion,
-              is to make sure you are feeling "at home". Whatever that means for
-              you.
-              <br /> <br />"
-              <span className="about-page-bottom-quote">
-                We believe in the beauty of simplicity.
-              </span>
-              "
+              {showMore && (
+                <p>
+                  {" "}
+                  <br />
+                  <em>"Feeling at home"</em> can look different for everyone.
+                  Some people want a quiet place to unwind, while others need
+                  something vibrant, where they can host memorable dinner
+                  parties with friends.
+                  <br /> <br />
+                  <span className="about-page-keyword">Our job</span> , and
+                  passion, is to make sure you are feeling "at home". Whatever
+                  that means for you.
+                  <br /> <br />"
+                  <span className="about-page-bottom-quote">
+                    We believe in the beauty of simplicity.
+                  </span>
+                  "{" "}
+                </p>
+              )}
             </Text>
             <Box mt={6} className="about-page-bottom-btn">
-              <button className=" btn-readMore"> READ MORE </button>
+              <button
+                className=" btn-readMore"
+                onClick={() => setShowMore(!showMore)}
+              >
+                {showMore ? <p>read less</p> : <p>read more</p>}{" "}
+              </button>
             </Box>
           </Box>
         </Container>

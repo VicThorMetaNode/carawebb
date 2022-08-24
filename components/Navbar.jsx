@@ -19,7 +19,7 @@ import { ImPinterest2, ImInstagram } from "react-icons/im";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar">
+      <div>
         <Flex>
           <HStack spacing="3px">
             <Box ml={3}>
