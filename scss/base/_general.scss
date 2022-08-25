@@ -72,3 +72,13 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  :root {
+   /*BORDERS RADIUS*/
+   --border-r025: 0.25rem;
+   --border-r1: 1rem;
+   --border-r2: 2rem;
+   --border-r3: 3rem;
+   --border-r4: 4rem;
+
+  }

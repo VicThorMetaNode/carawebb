@@ -1,0 +1,96 @@
+/*------------------ GLOBAL PART  ------------------*/
+
+.contact-page-section {
+    min-height: 100vh;
+    background-color: var(--clr-bg-light-grey);
+}
+
+.contact-page-container {
+ 
+}
+
+.contact-full-form-border {
+    border: 1px solid var(--clr-border-contact-form);
+    margin: 2rem 1rem 4rem 1rem !important;
+    
+}
+
+/*------------------ UPPER PART  ------------------*/
+.contact-title-box {
+  
+}
+
+.contact-subtitle-box {
+  
+}
+
+.contact-full-form-send-btn {
+}
+
+/*------------------ FORM PART  ------------------*/
+
+.contact-full-form {
+  
+  
+}
+
+.contact-full-form-text-container {
+  
+  font-family: var(--ft-cara-sublogo) !important;
+  font-size: var(--font-size-15) !important;
+  color: var(--clr-txt-black-dark);
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+
+/*------ TITLES AND TEXTS ----*/
+.contact-title {
+  font-family: var(--ft-cara-title);
+  font-size: var(--font-size-25);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+.contact-subtitle {
+  font-family: var(--ft-cara-title);
+  font-size: var(--font-size-22);
+  color: var(--clr-txt-black-dark);
+  text-align: center;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.contact-full-form-name-input {
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-13) !important;
+  color: var(--clr-txt-black-dark);
+  font-weight: 400;
+}
+
+.contact-full-form-email-input {
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-13) !important;
+  color: var(--clr-txt-black-dark);
+  font-weight: 400;
+}
+
+.contact-full-form-textarea-input {
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-13) !important;
+  color: var(--clr-txt-black-dark);
+  font-weight: 400;
+}
+
+.contact-full-form-projects-text {
+    font-family: var(--ft-cara-text);
+    font-size: var(--font-size-15) ;
+    color: var(--clr-txt-black-dark);
+    font-weight: 400;
+}
+
+/*------------------ BOTTOM SECTION  ------------------*/

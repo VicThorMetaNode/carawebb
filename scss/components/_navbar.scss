@@ -4,6 +4,13 @@
     height: 50px;
 }
 
+.nav-menu-section {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index:999 !important;
+}
+
 .menuGroup {
     display: flex !important;
     justify-content: right !important;
@@ -11,19 +18,24 @@
 }
 
 .nav-menu-main-item {
-    font-family: var(--ft-cara-title);
-    font-size: var(--font-size-20);
-    color: var(--clr-txt-white);
+    font-family: var(--ft-cara-title) !important;
+    font-size: var(--font-size-20) !important;
+    color: var(--clr-txt-white) !important;
     font-weight: 100 !important ;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
 }
 
 .nav-menu-secondary-item {
-    font-family: var(--ft-cara-text);
-    font-size: var(--font-size-17);
-    color: var(--clr-txt-white);
+    font-family: var(--ft-cara-text) !important;
+    font-size: var(--font-size-17) !important;
+    color: var(--clr-txt-white) !important;
     font-weight: 100 !important ;
-    text-transform: lowercase;
+    text-transform: lowercase !important;
+    width: 200px !important;
+    &:hover {
+        color:var(--clr-txt-black-dark) !important;
+        font-weight: 200 !important ;    
+    }
 }
 
 /*----------------------------- LOGO CUSTOMIZE  ---------------------*/
@@ -47,9 +59,12 @@ padding-top: 1px;
 
 /*----------------------------- ICONS CUSTOMIZE  ---------------------*/
 .icon-minus{
-margin-right: 1.5rem ;
+margin-right: -1.2rem ;
+
+color: var(--clr-txt-white);
 }
 .icon-plus { 
- margin-right: 5.21rem ;
+ margin-right: 4.5rem ;
+ color: var(--clr-txt-white);
 }
 
