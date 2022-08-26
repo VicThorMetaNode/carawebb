@@ -1,15 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
+import Image from "next/image";
 
 import { Box, Text, Container, Stack } from "@chakra-ui/react";
 
 //------ IMPORT COMPONENTS
 import Navbar from "../components/NavbarOther";
+import aboutPict from "../dist/images/augustine-wong-T0BYurbDK_M-unsplash.jpg";
 
 const otherProjects = () => {
   return (
     <>
       <section className="other-project-page-section">
-        <Navbar />
+        <nav>
+          <Navbar />
+        </nav>
+
         <Box mt={10} className="interior-project-container">
           <Stack justifyContent="center" alignItems="center" direction="column">
             <Box className="other-project-title-box">
@@ -91,14 +96,15 @@ const otherProjects = () => {
                     justifyContent="center"
                     alignItems="center"
                     direction="column"
+                    mb={10}
                   >
                     <Box className="interior-project-bottom-text-section">
                       <Text
                         className="interior-project-bottom-textOne"
-                        width={["15rem", "20rem", "auto"]}
+                        width={"15rem"}
                       >
-                        Not sure? Let's hop on a free discovery call to discuss
-                        your needs
+                        Reach out for a free discovery call to discuss your
+                        needs.
                       </Text>
                     </Box>
                     <Box className="interior-project-bottom-button-box">

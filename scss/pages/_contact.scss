@@ -2,17 +2,17 @@
 
 .contact-page-section {
     min-height: 100vh;
-    background-color: var(--clr-bg-light-grey);
+    background-color: var(--clr-bg-light-grey) !important;
 }
 
 .contact-page-container {
- 
+  background-color: var(--clr-bg-light-grey) !important;
 }
 
 .contact-full-form-border {
     border: 1px solid var(--clr-border-contact-form);
     margin: 2rem 1rem 4rem 1rem !important;
-    
+    background-color: var(--clr-bg-light-grey);
 }
 
 /*------------------ UPPER PART  ------------------*/

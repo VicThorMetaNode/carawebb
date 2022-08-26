@@ -58,13 +58,21 @@ padding-top: 1px;
 
 
 /*----------------------------- ICONS CUSTOMIZE  ---------------------*/
-.icon-minus{
-margin-right: -1.2rem ;
-
+.services-icon-minus{
+margin-right: -2.2rem ;
 color: var(--clr-txt-white);
 }
-.icon-plus { 
- margin-right: 4.5rem ;
+.services-icon-plus { 
+ margin-right: 2rem ;
  color: var(--clr-txt-white);
 }
 
+.diary-icon-minus {
+    margin-right: -2.2rem ;
+color: var(--clr-txt-white);
+}
+
+.diary-icon-plus{
+    margin-right: 2.4rem ;
+    color: var(--clr-txt-white); 
+}

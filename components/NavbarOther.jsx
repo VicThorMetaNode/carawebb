@@ -22,7 +22,9 @@ import { ImPinterest2, ImInstagram } from "react-icons/im";
 import { BiMinus, BiPlus } from "react-icons/bi";
 const NavbarOther = () => {
   //TOGGLE
-  const [showMore, setShowMore] = useState(false);
+  const [showMoreServices, setShowMoreServices] = useState(false);
+  const [showMoreDiary, setShowMoreDiary] = useState(false);
+
   return (
     <>
       <nav>
@@ -72,20 +74,26 @@ const NavbarOther = () => {
                       <Box>
                         <button
                           className=" btn-menu-plus"
-                          onClick={() => setShowMore(!showMore)}
+                          onClick={() => setShowMoreServices(!showMoreServices)}
                         >
-                          {showMore ? (
-                            <BiMinus fontSize={28} className="icon-minus" />
+                          {showMoreServices ? (
+                            <BiMinus
+                              fontSize={28}
+                              className="services-icon-minus"
+                            />
                           ) : (
-                            <BiPlus fontSize={28} className="icon-plus" />
+                            <BiPlus
+                              fontSize={28}
+                              className="services-icon-plus"
+                            />
                           )}
                         </button>
                       </Box>
                       <MenuGroup
-                        title="SERVICES"
+                        title="our SERVICES"
                         className="menuGroup nav-menu-main-item"
                       >
-                        {showMore && (
+                        {showMoreServices && (
                           <>
                             {" "}
                             <MenuItem
@@ -93,7 +101,7 @@ const NavbarOther = () => {
                               alignItems="right"
                               className="nav-menu-secondary-item"
                             >
-                              <Link href="/interiorsProjects">
+                              <Link href="/interiorProjects">
                                 interior projects
                               </Link>
                             </MenuItem>
@@ -104,7 +112,7 @@ const NavbarOther = () => {
                               className="nav-menu-secondary-item"
                               mb={3}
                             >
-                              <Link href="/otherProjects">
+                              <Link href="/commercialProjects">
                                 commercial projects & home staging
                               </Link>
                             </MenuItem>{" "}
@@ -112,13 +120,55 @@ const NavbarOther = () => {
                         )}
                       </MenuGroup>
                     </Stack>
-                    <MenuItem
+
+                    <Stack
+                      direction="row"
                       justifyContent="right"
                       alignItems="right"
-                      className="nav-menu-main-item"
                     >
-                      <Link href="/about"> VISUAL DIARY</Link>
-                    </MenuItem>
+                      <Box>
+                        <button
+                          className=" btn-menu-plus"
+                          onClick={() => setShowMoreDiary(!showMoreDiary)}
+                        >
+                          {showMoreDiary ? (
+                            <BiMinus
+                              fontSize={28}
+                              className="diary-icon-minus"
+                            />
+                          ) : (
+                            <BiPlus fontSize={28} className="diary-icon-plus" />
+                          )}
+                        </button>
+                      </Box>
+                      <MenuGroup
+                        title="visual diary"
+                        className="menuGroup nav-menu-main-item"
+                      >
+                        {showMoreDiary && (
+                          <>
+                            {" "}
+                            <MenuItem
+                              justifyContent="right"
+                              alignItems="right"
+                              className="nav-menu-secondary-item"
+                            >
+                              <Link href="/interiorsProjects">projects</Link>
+                            </MenuItem>
+                            <MenuItem
+                              justifyContent="right"
+                              alignItems="right"
+                              textAlign={"right"}
+                              className="nav-menu-secondary-item"
+                              mb={3}
+                            >
+                              <Link href="/otherProjects">moodboards</Link>
+                            </MenuItem>{" "}
+                          </>
+                        )}
+                      </MenuGroup>
+                    </Stack>
+
                     <MenuItem
                       justifyContent="right"
                       alignItems="right"

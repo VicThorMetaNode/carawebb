@@ -44,7 +44,7 @@ const contact = () => {
                   <Text className="contact-title">Contact</Text>
                 </Box>
                 <Box className="contact-subtitle-box">
-                  <Text className="contact-subtitle">
+                  <Text className="contact-subtitle" width={"13rem"}>
                     Let's chat about your future memories
                   </Text>
                 </Box>
