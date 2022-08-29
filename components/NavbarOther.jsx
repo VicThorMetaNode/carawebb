@@ -47,7 +47,7 @@ const NavbarOther = () => {
                 <MenuButton
                   as={Button}
                   bg="transparent"
-                  color="#000000"
+                  color="#DAD1BE"
                   transition="all 0.5s"
                   _hover={{ color: "#000000" }}
                   _expanded={{ bg: "transparent", color: "#fff" }}

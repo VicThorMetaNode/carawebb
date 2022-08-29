@@ -8,6 +8,7 @@ import Navbar from "../components/NavbarOther";
 import PalmlPict from "../dist/images/augustine-wong-T0BYurbDK_M-unsplash.jpg";
 
 const otherProjects = () => {
+  //TAP TO DISCOVER
   const [showMoreCommercial, setShowMoreCommercial] = useState(false);
   const [showMoreStaging, setShowMoreStaging] = useState(false);
   return (
@@ -73,6 +74,7 @@ const otherProjects = () => {
                             width="350px"
                             height="370px"
                             alt="Palm Picture by Augustine Wong"
+                            className="img-palm"
                           />
                           <Box className="project-palm-box">
                             <Stack
@@ -95,30 +97,63 @@ const otherProjects = () => {
                     </Stack>
                   </Box>
                 </a>
-                <Box
-                  mt={10}
-                  width="350px"
-                  height="400px"
-                  className="project-swiper-div spacer-other-projet"
-                >
-                  <Stack
-                    justifyContent="center"
-                    alignItems="center"
-                    direction="column"
+
+                <a onClick={() => setShowMoreStaging(!showMoreStaging)}>
+                  <Box
+                    mt={10}
+                    mb={10}
+                    width="350px"
+                    height="400px"
+                    className="project-swiper-div spacer-other-projet"
                   >
-                    <Box mt={10}>
-                      <Text className="project-swiper-title" mb={4}>
-                        home <br /> staging
-                      </Text>
-                      <Container className="project-swiper-text" px={10}>
-                        We clean, decorate rearrange furniture, and use
-                        aesthetic strategies to present your home in the best
-                        possible way. If you are looking to sell your place,
-                        this is exactly what you need.
-                      </Container>
-                    </Box>
-                  </Stack>
-                </Box>
+                    <Stack
+                      justifyContent="center"
+                      alignItems="center"
+                      direction="column"
+                    >
+                      {showMoreStaging ? (
+                        <Box mt={10}>
+                          <Text className="project-swiper-title" mb={4}>
+                            home <br /> staging
+                          </Text>
+                          <Container className="project-swiper-text" px={10}>
+                            We clean, decorate rearrange furniture, and use
+                            aesthetic strategies to present your home in the
+                            best possible way. If you are looking to sell your
+                            place, this is exactly what you need.
+                          </Container>
+                        </Box>
+                      ) : (
+                        <Box className="project-palm-section">
+                          <Image
+                            src={PalmlPict}
+                            width="350px"
+                            height="400px"
+                            alt="Palm Picture by Augustine Wong"
+                            className="img-palm"
+                          />
+                          <Box className="project-palm-box">
+                            <Stack
+                              justifyContent="center"
+                              alignItems="center"
+                              direction="column"
+                              spacing="0.50rem"
+                            >
+                              <Text className="project-swiper-title project-palm-title">
+                                home staging
+                              </Text>
+
+                              <Text className="project-palm-text project-swiper-text">
+                                tap to discover
+                              </Text>
+                            </Stack>
+                          </Box>
+                        </Box>
+                      )}
+                    </Stack>
+                  </Box>
+                </a>
+
                 <section className="interior-project-bottom-section">
                   <Stack
                     justifyContent="center"

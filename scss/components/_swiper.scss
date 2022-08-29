@@ -1,18 +1,18 @@
-.mySwiper {
-    width: 313px;
-    height: 336px;
+.swiper-container {
+    width: 300px;
+    height: 400px;
   }
 
-//   @media screen and (min-width: 640px) {
-//     .mySwipe {
-//         width: 413px;
-//         height: 436px;
-//     }
-//   }
+  @media screen and (min-width: 640px) {
+    .swiper-container {
+        width: 400px;
+        height: 500px;
+    }
+  }
   
-//   @media screen and (min-width: 768px) {
-//     .mySwipe {
-//         width: 413px;
-//         height: 436px;
-//     }
-//   }
+  @media screen and (min-width: 768px) {
+    .swiper-container{
+        width: 500px;
+        height: 600px;
+    }
+  }

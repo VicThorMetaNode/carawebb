@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import Image from "next/image";
+import Image from "next/image";
 
 import { Box, Text, HStack, Container, Stack } from "@chakra-ui/react";
 
@@ -9,18 +9,21 @@ import Navbar from "../components/NavbarOther";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import Swiper styles
 import "swiper/css";
-
-// import projectImg from "../dist/images/augustine-wong-T0BYurbDK_M-unsplash.jpg";
+import PalmlPict from "../dist/images/augustine-wong-T0BYurbDK_M-unsplash.jpg";
 
 import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
 
 const interiorProjects = () => {
-  //TOGGLE
-
+  //TAP TO DISCOVER
+  const [showMoreBasic, setShowMoreBasic] = useState(false);
+  const [showMoreStandard, setShowMoreStandard] = useState(false);
+  const [showMoreAllIn, setShowMoreAllIn] = useState(false);
   return (
     <>
       <section className="interior-project-page-section">
-        <Navbar />
+        <nav>
+          <Navbar />
+        </nav>
         <Container mt={10} className="interior-project-container">
           <Stack justifyContent="center" alignItems="center" direction="column">
             <Box className="interior-project-title-box">
@@ -32,10 +35,7 @@ const interiorProjects = () => {
               </Text>
             </Box>
             <Box className="interior-project-text-box">
-              <Text
-                className="interior-project-text"
-                width={["17rem", "22rem", "auto"]}
-              >
+              <Text className="interior-project-text" width={"22rem"}>
                 We design your interior to bring new perspectives and an
                 aesthetic look.
               </Text>
@@ -45,31 +45,192 @@ const interiorProjects = () => {
         <section className="interior-project-swipe-section">
           <Swiper className="mySwiper" slidesPerView={1} loop={true}>
             <SwiperSlide>
-              <Box width="400px" height="336px" className="project-swiper-div">
-                <Box
-                  pos="fixed"
-                  bottom={10}
-                  className="project-swiper-div-center"
-                >
-                  <Stack
-                    justifyContent="center"
-                    alignItems="center"
-                    direction="column"
+              <a onClick={() => setShowMoreBasic(!showMoreBasic)}>
+                {showMoreBasic ? (
+                  <Box
+                    width={["300px", "400px", "500px"]}
+                    height={["400px", "500px", "600px"]}
+                    className="project-swiper-div project-palm-section"
                   >
-                    <Box>
-                      <Text className="project-swiper-title">Basic</Text>
+                    <Box className="project-palm-box">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                      >
+                        <Box>
+                          <Text className="project-swiper-title">Basic</Text>
+                        </Box>
+                        <Box>
+                          <Text className="project-swiper-text">
+                            We listen to your lifestyle desires and give our
+                            first suggestions and tips.
+                          </Text>
+                        </Box>
+                        <Box></Box>
+                      </Stack>
                     </Box>
-                    <Box>
-                      <Container className="project-swiper-text" px={10}>
-                        We listen to your lifestyle desires and give our first
-                        suggestions and tips.
-                      </Container>
+                  </Box>
+                ) : (
+                  <Box
+                    width={["300px", "400px", "500px"]}
+                    height={["400px", "500px", "600px"]}
+                    className="project-swiper-div project-palm-section"
+                  >
+                    <Image
+                      src={PalmlPict}
+                      layout="responsive"
+                      alt="Palm Picture by Augustine Wong"
+                      className="img-palm "
+                    />
+                    <Box className="project-palm-box">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className="project-swiper-title project-palm-title">
+                          Basic
+                        </Text>
+
+                        <Text className="project-palm-text project-swiper-text">
+                          tap to discover
+                        </Text>
+                      </Stack>
                     </Box>
-                  </Stack>
-                </Box>
-              </Box>
+                  </Box>
+                )}
+              </a>
             </SwiperSlide>
+
             <SwiperSlide>
+              <a onClick={() => setShowMoreStandard(!showMoreStandard)}>
+                {showMoreStandard ? (
+                  <Box
+                    width={["300px", "400px", "500px"]}
+                    height={["400px", "500px", "600px"]}
+                    className="project-swiper-div project-palm-section"
+                  >
+                    <Box className="project-palm-box">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                      >
+                        <Box>
+                          <Text className="project-swiper-title">Standard</Text>
+                        </Box>
+                        <Box>
+                          <Text className="project-swiper-text">
+                            We guide you through the process of buying new
+                            furniture, flooring decorating elements and
+                            coverings. This is included with a global price
+                            estimation.
+                          </Text>
+                        </Box>
+                        <Box></Box>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    width={["300px", "400px", "500px"]}
+                    height={["400px", "500px", "600px"]}
+                    className="project-swiper-div project-palm-section"
+                  >
+                    <Image
+                      src={PalmlPict}
+                      layout="responsive"
+                      alt="Palm Picture by Augustine Wong"
+                      className="img-palm "
+                    />
+                    <Box className="project-palm-box">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className="project-swiper-title project-palm-title">
+                          Standard
+                        </Text>
+
+                        <Text className="project-palm-text project-swiper-text">
+                          tap to discover
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                )}
+              </a>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <a onClick={() => setShowMoreAllIn(!showMoreAllIn)}>
+                {showMoreAllIn ? (
+                  <Box
+                    width={["300px", "400px", "500px"]}
+                    height={["400px", "500px", "600px"]}
+                    className="project-swiper-div project-palm-section"
+                  >
+                    <Box className="project-palm-box">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                      >
+                        <Box>
+                          <Text className="project-swiper-title">
+                            {" "}
+                            All-inclusive
+                          </Text>
+                        </Box>
+                        <Box>
+                          <Text className="project-swiper-text">
+                            Don't want to think about anything? We do all the
+                            heavy lifting for you. All you have to do is sit
+                            back and relax.
+                          </Text>
+                        </Box>
+                        <Box></Box>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    width={["300px", "400px", "500px"]}
+                    height={["400px", "500px", "600px"]}
+                    className="project-swiper-div project-palm-section"
+                  >
+                    <Image
+                      src={PalmlPict}
+                      layout="responsive"
+                      alt="Palm Picture by Augustine Wong"
+                      className="img-palm "
+                    />
+                    <Box className="project-palm-box">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className="project-swiper-title project-palm-title">
+                          All-inclusive
+                        </Text>
+
+                        <Text className="project-palm-text project-swiper-text">
+                          tap to discover
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                )}
+              </a>
+            </SwiperSlide>
+
+            {/* <SwiperSlide>
               <Box width="400px" height="336px" className="project-swiper-div">
                 <Box
                   pos="fixed"
@@ -95,8 +256,8 @@ const interiorProjects = () => {
                   </Stack>
                 </Box>
               </Box>
-            </SwiperSlide>
-            <SwiperSlide>
+            </SwiperSlide> */}
+            {/* <SwiperSlide>
               <Box width="400px" height="336px" className="project-swiper-div">
                 <Box mt={6}>
                   <Stack
@@ -117,7 +278,7 @@ const interiorProjects = () => {
                   </Stack>
                 </Box>
               </Box>
-            </SwiperSlide>
+            </SwiperSlide> */}
           </Swiper>
         </section>
         <section className="interior-project-bottom-section">

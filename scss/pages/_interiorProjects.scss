@@ -57,21 +57,6 @@
   margin: 2rem;
 }
 
-// .project-swiper-container {
-//   background: url(../../dist/images/augustine-wong-T0BYurbDK_M-unsplash.jpg) no-repeat center center fixed;
-//   background-size: cover;
-//   // -webkit-background-size: cover;
-//   // -moz-background-size: cover;
-//   // -o-background-size: cover;
-
-  
-//   height: 300px;
-//   position: absolute;
-//   left: 50%;
-//   top: 50%;
-//   transform: translate(-50%, -50%);
-//   padding-top: 4rem;
-// }
 
 .project-swiper-div {
   background-color: var(--clr-bg-dark-grey);
@@ -82,7 +67,6 @@
 .project-swiper-div-center {
   margin-bottom: 4rem;
 }
-
 
 
 .swiper-slide {
@@ -115,6 +99,48 @@
   font-weight: 400;
   text-transform: nowrap;
 }
+
+
+
+/*------------------ PALM BOX PART  ------------------*/
+
+.interior-project-palm-section {
+  position: relative;
+  text-align: center;
+  
+}
+
+.interior-project-palm-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.interior-project-palm-title {
+color: var(--clr-txt-white) !important;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: var(--clr-border-contact-form);
+
+}
+
+.interior-project-palm-text {
+text-decoration: underline;
+color: var(  --clr-border-contact-form) !important; 
+}
+
+.a-tag-interior {
+  all: unset;
+}
+
+
+
+
+
+
+
+
 
 /*------------------ BOTTOM SECTION  ------------------*/
 /*------ BOXES ----*/
