@@ -24,6 +24,17 @@
     text-transform: uppercase;
 }
 
+.btn-Google-readMore {
+    background-color: var(--clr-btn-other) !important;
+    font-family: var(--ft-gothic) ;
+    font-size: var(--font-size-14) !important;
+    color: var(--clr-txt-white);
+    border-radius: 0 !important;
+    border: 0.5px solid var(--clr-txt-white) !important;
+    padding: var.$padding-y-btn !important;
+    text-transform:capitalize;
+}
+
 .btn-discovery-call {
     background-color: var(--clr-btn-other) !important;
     font-family: var(--ft-gothic) ;
@@ -69,6 +80,3 @@
     text-transform: uppercase;
 }
 
-.btn-menu-plus {
-    
-}

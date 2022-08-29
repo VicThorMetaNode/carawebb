@@ -12,7 +12,6 @@ import {
   MenuButton,
   MenuGroup,
   Divider,
-  HStack,
   Stack,
 } from "@chakra-ui/react";
 
@@ -30,17 +29,27 @@ const NavbarOther = () => {
       <nav>
         <Box className="navbar">
           <Flex>
-            <HStack spacing="3px">
-              <Box ml={3}>
-                <Text className="landing-page-navbar-logo-partOne">cara.</Text>
-              </Box>
-              <Box>
-                <Text className="landing-page-navbar-logo-partTwo">
-                  - interior design
-                </Text>
-              </Box>
-            </HStack>
-
+            <Box mt={3}>
+              <a href="/">
+                <Stack
+                  spacing="3px"
+                  justifyContent="center"
+                  alignItems="center"
+                  direction="row"
+                >
+                  <Box ml={3}>
+                    <Text className="landing-page-navbar-logo-partOne">
+                      cara.
+                    </Text>
+                  </Box>
+                  <Box>
+                    <Text className="landing-page-navbar-logo-partTwo">
+                      - interior design
+                    </Text>
+                  </Box>
+                </Stack>
+              </a>
+            </Box>
             <Spacer />
             <Box>
               <Menu>

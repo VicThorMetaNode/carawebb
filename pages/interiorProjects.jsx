@@ -79,7 +79,7 @@ const interiorProjects = () => {
                   >
                     <Image
                       src={PalmlPict}
-                      layout="responsive"
+                      layout="fill"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />
@@ -141,7 +141,7 @@ const interiorProjects = () => {
                   >
                     <Image
                       src={PalmlPict}
-                      layout="responsive"
+                      layout="fill"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />
@@ -205,7 +205,7 @@ const interiorProjects = () => {
                   >
                     <Image
                       src={PalmlPict}
-                      layout="responsive"
+                      layout="fill"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />

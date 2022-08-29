@@ -3,8 +3,11 @@
 
 @forward 'base';
 @forward 'pages';
+
 @forward 'abstracts';
-@forward 'components/buttons';
+
 @forward 'components/navbar';
+@forward 'components/footer';
+@forward 'components/buttons';
 @forward 'components/swiper';
 @forward 'components/imgPalm';

@@ -1,6 +1,7 @@
 // ------------------ HOME PAGE -------------------
+import React from "react";
 import { Box, Text } from "@chakra-ui/react";
-
+import Link from "next/link";
 //------ IMPORT COMPONENTS
 import Navbar from "../components/Navbar";
 
@@ -24,7 +25,9 @@ export default function Home() {
         </Box>
         <Box>
           <Box mr={[3, 5, 20]} className="landing-page-btn">
-            <button className="btn-contact">CONTACT</button>
+            <Link href="/contact">
+              <button className="btn-contact">CONTACT</button>
+            </Link>
           </Box>
         </Box>
       </section>

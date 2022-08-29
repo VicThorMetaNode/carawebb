@@ -1,0 +1,53 @@
+/*--------- GENERAL CUSTOMIZE  --------*/
+.cookie-footer-section {
+    background-color: var(--clr-btn-contact) !important;
+   height: 20px;
+}
+
+
+/*--------- MODAL GENERAL --------*/
+
+
+
+/*--------- MODAL TEXT  --------*/
+.cookie-text-click{
+    font-family: var(--ft-gothic) ;
+    font-size: var(--font-size-12) !important;
+    color: var(--clr-txt-white);
+    text-transform:lowercase;
+    text-decoration: underline;
+}
+
+.cookie-modal-title {
+    font-family: var(--ft-cara-title);
+  font-size: var(--font-size-20) !important;
+  color: var(--clr-txt-black-dark);
+ 
+  font-weight: 600;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+.cookie-modal-text{
+    font-family: var(--ft-cara-text);
+  font-size: var(--font-size-13);
+  color: var(--clr-txt-black-dark);
+  
+  font-weight: 400;
+}
+
+.cookie-modal-text-capitalize{
+    text-transform: uppercase;
+}
+
+.cookie-modal-external-link {
+    font-family: var(--ft-cara-text);
+    font-size: var(--font-size-13);
+    color: var(--clr-txt-black-light);
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.btn-Google-readMore {
+    
+}
