@@ -70,6 +70,8 @@ const Navbar = () => {
                       alignItems="right"
                       mt={2}
                       className="nav-menu-main-item"
+                      _focus={{ bg: "transparent", color: "#fff" }}
+                      _hover={{ bg: "#A6A6A6" }}
                     >
                       <Link href="/about">ABOUT</Link>
                     </MenuItem>
@@ -108,6 +110,8 @@ const Navbar = () => {
                               justifyContent="right"
                               alignItems="right"
                               className="nav-menu-secondary-item"
+                              _focus={{ bg: "transparent", color: "#fff" }}
+                              _hover={{ bg: "#A6A6A6" }}
                             >
                               <Link href="/interiorProjects">
                                 interior projects
@@ -119,6 +123,8 @@ const Navbar = () => {
                               textAlign={"right"}
                               className="nav-menu-secondary-item"
                               mb={3}
+                              _focus={{ bg: "transparent", color: "#fff" }}
+                              _hover={{ bg: "#A6A6A6" }}
                             >
                               <Link href="/commercialProjects">
                                 commercial projects & home staging
@@ -160,6 +166,8 @@ const Navbar = () => {
                               justifyContent="right"
                               alignItems="right"
                               className="nav-menu-secondary-item"
+                              _focus={{ bg: "transparent", color: "#fff" }}
+                              _hover={{ bg: "#A6A6A6" }}
                             >
                               <Link href="/interiorsProjects">projects</Link>
                             </MenuItem>
@@ -169,6 +177,8 @@ const Navbar = () => {
                               textAlign={"right"}
                               className="nav-menu-secondary-item"
                               mb={3}
+                              _focus={{ bg: "transparent", color: "#fff" }}
+                              _hover={{ bg: "#A6A6A6" }}
                             >
                               <Link href="/otherProjects">moodboards</Link>
                             </MenuItem>{" "}
@@ -182,6 +192,8 @@ const Navbar = () => {
                       alignItems="right"
                       mb={4}
                       className="nav-menu-main-item"
+                      _focus={{ bg: "transparent", color: "#fff" }}
+                      _hover={{ bg: "#A6A6A6" }}
                     >
                       <Link href="/contact"> CONTACT US</Link>
                     </MenuItem>
