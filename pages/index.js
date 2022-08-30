@@ -1,16 +1,19 @@
 // ------------------ HOME PAGE -------------------
 import React from "react";
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Text, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 //------ IMPORT COMPONENTS
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 //-------------- BROWSER  -----------
 export default function Home() {
   return (
     <>
       <section className="landing-page">
-        <Navbar />
+        <nav>
+          <Navbar />
+        </nav>
         <Box mr={[3, 5, 20]} className="landing-page-section-title">
           <Text fontSize="6xl" className="landing-page-title">
             DEAR <br /> ONE
@@ -30,6 +33,12 @@ export default function Home() {
             </Link>
           </Box>
         </Box>
+
+        <Flex flexWrap="wrap" justifyContent="center" alignItems="center">
+          <Box className="landing-page-footer-section">
+            <Footer />
+          </Box>
+        </Flex>
       </section>
     </>
   );

@@ -1,3 +1,4 @@
+/*------------------ GLOBAL PART  ------------------*/
 .landing-page {
     min-height: 100vh;
     background: url(../../dist/images/cat-han-URi_yR9qtgs-unsplash.jpg) no-repeat center center fixed; 
@@ -17,8 +18,11 @@ padding-top: 1.3rem;
 
 .landing-page-btn {
     padding-top: 1.3rem;
+    text-align: right;
 }
 
+
+/*------ TITLES AND TEXTS ----*/
 .landing-page-title {
 font-family: var(--ft-cara-title);
 color: var(--clr-txt-yellow);
@@ -35,6 +39,10 @@ text-align: right;
 line-height: 2rem;
 }
 
-.landing-page-btn {
-text-align: right;
+
+/*------------------ FOOTER PART  ------------------*/
+.landing-page-footer-section {
+    position: absolute;
+    bottom: 10px;
+    
 }

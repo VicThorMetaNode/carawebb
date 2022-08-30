@@ -18,7 +18,7 @@ const otherProjects = () => {
           <Navbar />
         </nav>
 
-        <Box mt={10} className="interior-project-container">
+        <Box mt={10}>
           <Stack justifyContent="center" alignItems="center" direction="column">
             <Box className="other-project-title-box">
               <Text className="interior-project-title"> our services</Text>

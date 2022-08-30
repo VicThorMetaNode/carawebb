@@ -15,8 +15,10 @@ const about = () => {
   return (
     <>
       <section className="about-page">
-        <Navbar />
-        <Container className="about-page-partOne">
+        <nav>
+          <Navbar />
+        </nav>
+        <Container className="about-page-partOne" p={10}>
           <Box>
             <Text mb={2} className="about-page-title-partOne">
               dear one,
@@ -113,13 +115,13 @@ const about = () => {
             </Box>
           </Flex>
 
-          <Flex justifyContent="center" alignItems="center">
+          {/* <Flex justifyContent="center" alignItems="center">
             <Box className="about-page-arrow-bottomPage">
               <button>
                 <BsArrowUp className="arrow-icon" size="50px" />
               </button>
             </Box>
-          </Flex>
+          </Flex> */}
         </section>
       </section>
     </>
