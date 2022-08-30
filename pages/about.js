@@ -18,7 +18,11 @@ const about = () => {
         <nav>
           <Navbar />
         </nav>
-        <Container className="about-page-partOne" p={10}>
+        <Container
+          className="about-page-partOne"
+          p={10}
+          mt={["0", "2rem", "2rem"]}
+        >
           <Box>
             <Text mb={2} className="about-page-title-partOne">
               dear one,
