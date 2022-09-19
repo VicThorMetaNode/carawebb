@@ -79,7 +79,7 @@ const about = () => {
 
         <Box
           className="about-page-partTwo-section"
-          mt={["3rem", "10rem", "10rem"]}
+          mt={["5rem", "10rem", "10rem"]}
           mb={["7rem", "10rem", "10rem"]}
         >
           <Flex
@@ -100,22 +100,26 @@ const about = () => {
             <Box className="about-page-partTwo-boxTextTwo" ml={"-12rem"}>
               <Text
                 className="about-page-partTwo-textRight"
-                fontSize={["13px", "17px", "17px"]}
+                fontSize={["14px", "17px", "17px"]}
               >
                 Born and raised in Brussels but lived in many different cities
                 around the globe.
                 <br /> <br />
+                
                 I have a degree in communications, an MBA in Hotel Management,
                 and an in-depth training in interior design.
                 <br /> <br />
+             
                 My interior designer journey started when I was blocked in my
                 bungalow in Los Angeles during the pandemic. Due the situation I
                 had to design my own entire apartment from distance (located in
                 Brussels).
                 <br /> <br />
+                <br /> 
                 When doing so, I really loved the process and was thrilled about
-                the result !
+                the result!
                 <br /> <br />
+               
                 This opportunity gave me the strength and the inspiration to do
                 it for others, and this is how cara.
                 <span className="about-page-dearOne-capitalize">
