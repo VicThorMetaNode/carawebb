@@ -24,12 +24,16 @@
 
 .about-page-text-partOne {
   font-family: var(--ft-cara-text);
-  font-size: var(--font-size-17);
   color: var(--clr-txt-black-dark);
-
   font-weight: 400;
   padding-left: 2rem;
   padding-right: 5rem;
+  max-width: 40rem;
+}
+
+.about-page-text-partOne-readMore {
+  font-family: var(--ft-cara-text);
+  color: var(--clr-txt-black-dark);
 }
 
 .about-page-keyword {
@@ -38,7 +42,6 @@
 
 .about-page-bottom-quote {
   font-family: var(--ft-cara-title);
-  font-size: var(--font-size-20);
   font-weight: 500;
 }
 
@@ -50,49 +53,42 @@
 
 .about-page-partTwo-section {
   background-color: var(--clr-bg-light-grey);
-  width: auto;
-  margin: 2rem 0 1rem 0;
-  
+  max-width: 80rem;
 }
 
-.about-page-partTwo-flex {
-  display: grid;
-  grid-template-columns: 25% 300px;
-  grid-gap: 2px;
-}
+// .about-page-partTwo-flex {
+//   display: grid;
+//   grid-template-columns: 10% 25rem;
+//   grid-gap: 2px;
+// }
 
-.about-page-partTwo-boxTextOne {
- 
-  margin-top: 7rem;
-  margin-bottom: 0.5rem;
-}
+
 
 .about-page-partTwo-textLeft {
-  
   font-family: var(--ft-cara-title);
-  
   font-weight: 600;
   transform: rotate(-90deg);
   padding: 0;
   white-space: nowrap;
   height: fit-content;
-  line-height: 600px;
+  letter-spacing: 10px;
 }
 
+.about-page-partTwo-boxTextOne{
+  margin-left: -12rem;
+}
 .about-page-partTwo-boxTextTwo {
-  
-  margin-bottom: auto;
+  margin-right: 2rem;
+  max-width: 25rem;
 }
 
 .about-page-partTwo-textRight {
   
   font-family: var(--ft-cara-text);
-  font-size: var(--font-size-15);
   color: var(--clr-txt-black-dark);
   text-align: left;
   font-weight: 200;
-  height: min-content;
-  padding: 2rem;
+ 
  
 }
 

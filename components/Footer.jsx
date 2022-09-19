@@ -51,7 +51,7 @@ const Footer = () => {
                 </span>
                 <br /> <br />
                 When you visit the Site, we collect certain information about
-                your device, your interaction with the Site based pn Google
+                your device, your interaction with the Site based on Google
                 Analytics policies.
                 <br />
                 We DO NOT collect additional information.

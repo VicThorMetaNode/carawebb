@@ -48,8 +48,8 @@ const otherProjects = () => {
               <Box>
                 <a onClick={() => setShowMoreCommercial(!showMoreCommercial)}>
                   <Box
-                    width="350px"
-                    height="370px"
+                    width="330px"
+                    height="400px"
                     className="project-swiper-div spacer-other-projet"
                   >
                     <Stack
@@ -71,8 +71,8 @@ const otherProjects = () => {
                         <Box className="project-palm-section">
                           <Image
                             src={PalmlPict}
-                            width="350px"
-                            height="370px"
+                            width="330px"
+                            height="400px"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"
                           />
@@ -102,7 +102,7 @@ const otherProjects = () => {
                   <Box
                     mt={10}
                     mb={10}
-                    width="350px"
+                    width="330px"
                     height="400px"
                     className="project-swiper-div spacer-other-projet"
                   >
@@ -127,7 +127,7 @@ const otherProjects = () => {
                         <Box className="project-palm-section">
                           <Image
                             src={PalmlPict}
-                            width="350px"
+                            width="330px"
                             height="400px"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"

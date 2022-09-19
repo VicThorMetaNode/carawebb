@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import { Box, Text, VStack, Container, Flex } from "@chakra-ui/react";
+import { Box, Text, Stack, Flex } from "@chakra-ui/react";
 
 //------ IMPORT COMPONENTS
 import Navbar from "../components/NavbarOther";
@@ -18,93 +18,113 @@ const about = () => {
         <nav>
           <Navbar />
         </nav>
-        <Container
-          className="about-page-partOne"
-          p={10}
-          mt={["0", "2rem", "2rem"]}
-        >
-          <Box>
-            <Text mb={2} className="about-page-title-partOne">
-              dear one,
-            </Text>
-            <Text maxW={["sm", "md", "xl"]} className="about-page-text-partOne">
-              Life can often feel like a constant race.
-              <br />
-              We're always busy, running from one thing to the next.
-              <br /> <br />
-              But, at the end of the day, all we are looking for is that homey
-              feeling and create unforgettable memories with our loved ones.
-              {showMore && (
-                <p>
-                  {" "}
-                  <br />
-                  <em>"Feeling at home"</em> can look different for everyone.
-                  Some people want a quiet place to unwind, while others need
-                  something vibrant, where they can host memorable dinner
-                  parties with friends.
-                  <br /> <br />
-                  <span className="about-page-keyword">Our job</span> , and
-                  passion, is to make sure you are feeling "at home". Whatever
-                  that means for you.
-                  <br /> <br />"
-                  <span className="about-page-bottom-quote">
-                    We believe in the beauty of simplicity.
-                  </span>
-                  "{" "}
-                </p>
-              )}
-            </Text>
-            <Box mt={6} className="about-page-bottom-btn">
-              <button
-                className=" btn-readMore"
-                onClick={() => setShowMore(!showMore)}
+        <Stack justifyContent="center" alignItems="center" direction="column">
+          <Box
+            className="about-page-partOne"
+            py={4}
+            px={["0", "2rem", "4rem"]}
+            mt={["0", "2rem", "2rem"]}
+          >
+            <Box>
+              <Text mb={2} className="about-page-title-partOne">
+                dear one,
+              </Text>
+              <Text
+                className="about-page-text-partOne"
+                fontSize={["13px", "17px", "17px"]}
               >
-                {showMore ? <p>read less</p> : <p>read more</p>}{" "}
-              </button>
+                Life can often feel like a constant race.
+                <br />
+                We're always busy, running from one thing to the next.
+                <br /> <br />
+                But, at the end of the day, all we are looking for is that homey
+                feeling and create unforgettable memories with our loved ones.
+                {showMore && (
+                  <Text
+                    className="about-page-text-partOne-readMore"
+                    fontSize={["13px", "17px", "17px"]}
+                  >
+                    {" "}
+                    <br />
+                    <em>"Feeling at home"</em> can look different for everyone.
+                    Some people want a quiet place to unwind, while others need
+                    something vibrant, where they can host memorable dinner
+                    parties with friends.
+                    <br /> <br />
+                    <span className="about-page-keyword">Our job</span> , and
+                    passion, is to make sure you are feeling "at home". Whatever
+                    that means for you.
+                    <br /> <br />"
+                    <span
+                      className="about-page-bottom-quote"
+                      fontSize={["10px", "17px", "17px"]}
+                    >
+                      We believe in the beauty of simplicity.
+                    </span>
+                    "{" "}
+                  </Text>
+                )}
+              </Text>
+              <Box mt={6} className="about-page-bottom-btn">
+                <button
+                  className=" btn-readMore"
+                  onClick={() => setShowMore(!showMore)}
+                >
+                  {showMore ? <p>read less</p> : <p>read more</p>}{" "}
+                </button>
+              </Box>
             </Box>
           </Box>
-        </Container>
+        </Stack>
 
         <Box
           className="about-page-partTwo-section"
-          pl={["auto", "5rem", "20rem"]}
+          mt={["3rem", "10rem", "10rem"]}
+          mb={["7rem", "10rem", "10rem"]}
         >
-          <article className="about-page-partTwo-flex">
-            <Box className="about-page-partTwo-boxTextOne">
-              <Text
-                className="about-page-partTwo-textLeft"
-                fontSize={["50px", "45px", "50px"]}
-              >
+          <Flex
+            className="about-page-partTwo-flex"
+            justifyContent="center"
+            alignItems="center"
+          >
+            <Box
+              className="about-page-partTwo-boxTextOne"
+              ml={["-12rem", "30rem"]}
+            >
+              <Text className="about-page-partTwo-textLeft" fontSize={"45px"}>
                 {" "}
                 how it started
               </Text>
             </Box>
 
-            <Box className="about-page-partTwo-boxTextTwo" m={2}>
-              <Text className="about-page-partTwo-textRight" maxW={"sm"}>
-                Victoria was born and raised in Brussels but has lived in many
-                different cities around the globe.
+            <Box className="about-page-partTwo-boxTextTwo" ml={"-12rem"}>
+              <Text
+                className="about-page-partTwo-textRight"
+                fontSize={["13px", "17px", "17px"]}
+              >
+                Born and raised in Brussels but lived in many different cities
+                around the globe.
                 <br /> <br />
-                She has a degree in communications, an MBA in Hotel Management,
-                and in-depth training in interior design.
+                I have a degree in communications, an MBA in Hotel Management,
+                and an in-depth training in interior design.
                 <br /> <br />
-                Her interior designer journey started when she was blocked in
-                her bungalow in Los Angeles during the pandemic. Due the
-                situation she had to design her own entire apartment from
-                distance (located in Brussels).
+                My interior designer journey started when I was blocked in my
+                bungalow in Los Angeles during the pandemic. Due the situation I
+                had to design my own entire apartment from distance (located in
+                Brussels).
                 <br /> <br />
-                When doing so she loved the process and was thrilled about the
-                result!
+                When doing so, I really loved the process and was thrilled about
+                the result !
                 <br /> <br />
-                This opportunity gave her the strength and the inspiration to do
-                it for others and this is how cara.
+                This opportunity gave me the strength and the inspiration to do
+                it for others, and this is how cara.
                 <span className="about-page-dearOne-capitalize">
                   DEAR ONE
                 </span>{" "}
                 was born.
               </Text>
             </Box>
-          </article>
+          </Flex>
         </Box>
 
         <section className="about-page-image-section">
@@ -113,8 +133,8 @@ const about = () => {
               <Image
                 src={aboutPict}
                 alt="Picture of the author"
-                width="450px"
-                height="500px"
+                width="350px"
+                height="400px"
               />
             </Box>
           </Flex>

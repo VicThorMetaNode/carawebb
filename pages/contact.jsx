@@ -118,7 +118,30 @@ const contact = () => {
                   </HStack>
                 </RadioGroup>
                 <FormHelperText className="contact-full-form-email-input">
-                  Select at least one
+                  Select one
+                </FormHelperText>
+
+                <FormLabel className="contact-full-form-text-container" mt={6}>
+                  Select the type of Project
+                </FormLabel>
+                <RadioGroup defaultValue="InteriorProject">
+                  <HStack spacing="24px">
+                    <Radio
+                      value="InteriorProject"
+                      className="contact-full-form-projects-text"
+                    >
+                      On Site
+                    </Radio>
+                    <Radio
+                      value="CommercialProject"
+                      className="contact-full-form-projects-text"
+                    >
+                      Remote
+                    </Radio>
+                  </HStack>
+                </RadioGroup>
+                <FormHelperText className="contact-full-form-email-input">
+                  Select one
                 </FormHelperText>
 
                 <FormLabel className="contact-full-form-text-container" mt={6}>
