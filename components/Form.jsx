@@ -64,7 +64,7 @@ const Form = () => {
   return (
     <>
       <form method="post" onSubmit={handleSubmit}>
-        <FormControl className="contact-full-form">
+        <FormControl className="contact-full-form" p={10} my={10}>
           <FormLabel className="contact-full-form-text-container" mt={2}>
             Name
           </FormLabel>
