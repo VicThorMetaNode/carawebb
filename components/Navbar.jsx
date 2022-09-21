@@ -169,7 +169,7 @@ const Navbar = () => {
                               _focus={{ bg: "transparent", color: "#fff" }}
                               _hover={{ bg: "#A6A6A6" }}
                             >
-                              <Link href="/interiorsProjects">projects</Link>
+                              <Link href="/diaryProjects">projects</Link>
                             </MenuItem>
                             <MenuItem
                               justifyContent="right"
@@ -180,7 +180,7 @@ const Navbar = () => {
                               _focus={{ bg: "transparent", color: "#fff" }}
                               _hover={{ bg: "#A6A6A6" }}
                             >
-                              <Link href="/otherProjects">moodboards</Link>
+                              <Link href="/diaryMoodBoards">moodboards</Link>
                             </MenuItem>{" "}
                           </>
                         )}

@@ -88,8 +88,19 @@
   color: var(--clr-txt-black-dark);
   text-align: left;
   font-weight: 200;
- 
- 
+}
+
+.about-current-city-text {
+  font-family: var(--ft-cara-text);
+  color: var(--clr-txt-black-dark);
+  
+  font-weight: 200;
+}
+
+.about-current-city {
+  color: var(--clr-txt-yellow);
+  font-style: italic;
+  font-weight: 400;
 }
 
 

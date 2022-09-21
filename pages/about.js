@@ -105,21 +105,18 @@ const about = () => {
                 Born and raised in Brussels but lived in many different cities
                 around the globe.
                 <br /> <br />
-                
                 I have a degree in communications, an MBA in Hotel Management,
                 and an in-depth training in interior design.
                 <br /> <br />
-             
                 My interior designer journey started when I was blocked in my
                 bungalow in Los Angeles during the pandemic. Due the situation I
                 had to design my own entire apartment from distance (located in
                 Brussels).
                 <br /> <br />
-                <br /> 
+                <br />
                 When doing so, I really loved the process and was thrilled about
                 the result!
                 <br /> <br />
-               
                 This opportunity gave me the strength and the inspiration to do
                 it for others, and this is how cara.
                 <span className="about-page-dearOne-capitalize">
@@ -131,14 +128,29 @@ const about = () => {
           </Flex>
         </Box>
 
+        <Box mb={10} p={4}>
+          <Stack justifyContent="center" alignItems="center" textAlign="center">
+            <Text
+              className="about-current-city-text"
+              fontSize={["15px", "17px", "21px"]}
+            >
+              as an endless wanderer I'm constantly on the move...
+              <br />
+              currently established in{" "}
+              <span className="about-current-city">Costa Rica</span>
+            </Text>
+          </Stack>
+        </Box>
+
         <section className="about-page-image-section">
           <Flex justifyContent="center" alignItems="center">
             <Box className="about-page-image">
               <Image
                 src={aboutPict}
                 alt="Picture of the author"
-                width="350px"
-                height="400px"
+                width="400px"
+                height="520px"
+                objectFit="cover"
               />
             </Box>
           </Flex>
