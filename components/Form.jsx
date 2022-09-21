@@ -70,7 +70,7 @@ const Form = () => {
           </FormLabel>
           <Input
             className="contact-full-form-name-input"
-            placeholder=" e.g Joe Tatcher"
+            placeholder=" e.g Mary Blair"
             type="string"
             id="name"
             name="name"
@@ -83,7 +83,7 @@ const Form = () => {
           </FormLabel>
           <Input
             className="contact-full-form-email-input"
-            placeholder="e.g joetatcher@test.net"
+            placeholder="e.g maryblair@test.net"
             type="email"
             id="email"
             name="email"
