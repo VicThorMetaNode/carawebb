@@ -35,7 +35,7 @@ import project18 from "../dist/images/RIVA 6 .JPG";
 const diaryProjects = () => {
   return (
     <>
-      <section className="interior-project-page-section">
+      <section className="diary-projects-page-section">
         <nav>
           <Navbar />
         </nav>
