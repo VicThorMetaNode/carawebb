@@ -42,7 +42,6 @@ export default function Home() {
             className="landing-page-footer-logo"
             width="120px"
             height="200px"
-            mt={40}
           >
             <Image src={logoFooter} objectFit="fill" alt="Logo Picture" />
           </Box>
