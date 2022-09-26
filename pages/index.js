@@ -1,10 +1,14 @@
 // ------------------ HOME PAGE -------------------
 import React from "react";
-import { Box, Text, Flex } from "@chakra-ui/react";
+import Image from "next/image";
+import { Box, Text, Flex, Stack } from "@chakra-ui/react";
 import Link from "next/link";
 //------ IMPORT COMPONENTS
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+
+// import internal pictures
+import logoFooter from "../dist/images/logo.png";
 
 //-------------- BROWSER  -----------
 export default function Home() {
@@ -33,12 +37,26 @@ export default function Home() {
             </Link>
           </Box>
         </Box>
+        <Flex justifyContent="right" alignItems="right">
+          <Box
+            className="landing-page-footer-logo"
+            width="120px"
+            height="200px"
+            mt={40}
+          >
+            <Image src={logoFooter} objectFit="fill" alt="Logo Picture" />
+          </Box>
+        </Flex>
 
         <Flex flexWrap="wrap" justifyContent="center" alignItems="center">
           <Box className="landing-page-footer-section">
             <Footer />
           </Box>
         </Flex>
+
+        {/* <Flex  justifyContent="right" alignItems="right">
+          
+        </Flex> */}
       </section>
     </>
   );

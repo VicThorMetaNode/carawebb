@@ -12,16 +12,11 @@
     position: relative;
     text-align: center;
 
-   
-   
-}
-
-.diary-project-swiper-box {
     &:hover + .diary-project-text-hover-hide + .diary-project-text-hover {
         display: block !important;
     }
+   
 }
-
 
 .diary-project-text-hover-box {
    display: none;
