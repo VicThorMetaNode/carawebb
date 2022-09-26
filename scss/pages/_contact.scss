@@ -19,23 +19,24 @@
 // .contact-title-box {
   
 // }
+.contact-subtitle-box {
+margin-left: -4rem !important;
+}
 
-// .contact-subtitle-box {
-  
-// }
+.contact-subtitle {
+  font-size: var(--font-size-14) !important ;
+}
 
-// .contact-full-form-send-btn {
-// }
+
 
 /*------------------ FORM PART  ------------------*/
 
 .contact-full-form {
   border: 1px solid var(--clr-border-contact-form);
-  
+ 
 }
 
 .contact-full-form-text-container {
-  
   font-family: var(--ft-cara-sublogo) !important;
   font-size: var(--font-size-15) !important;
   color: var(--clr-txt-black-dark);
