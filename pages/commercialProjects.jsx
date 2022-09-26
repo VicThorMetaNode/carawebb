@@ -24,16 +24,13 @@ const otherProjects = () => {
               <Text className="interior-project-title"> our services</Text>
             </Box>
             <Box className="interior-project-subtitle-box">
-              <Text
-                className="interior-project-subtitle"
-                width={["13rem", "13rem", "auto"]}
-              >
+              <Text className="interior-project-subtitle" width={"25rem"}>
                 commercial projects & home staging
               </Text>
             </Box>
             <Box className="interior-project-text-box">
               <Text className="interior-project-text" width={"22rem"}>
-                We design your interior to bring new perspectives and an
+                We design the interior to bring new perspectives and an
                 aesthetic look.
               </Text>
             </Box>
@@ -49,7 +46,7 @@ const otherProjects = () => {
                 <a onClick={() => setShowMoreCommercial(!showMoreCommercial)}>
                   <Box
                     width="330px"
-                    height="400px"
+                    height="330px"
                     className="project-swiper-div spacer-other-projet"
                   >
                     <Stack
@@ -72,7 +69,7 @@ const otherProjects = () => {
                           <Image
                             src={PalmlPict}
                             width="330px"
-                            height="400px"
+                            height="330px"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"
                           />
@@ -103,7 +100,7 @@ const otherProjects = () => {
                     mt={10}
                     mb={10}
                     width="330px"
-                    height="400px"
+                    height="330px"
                     className="project-swiper-div spacer-other-projet"
                   >
                     <Stack
@@ -112,11 +109,11 @@ const otherProjects = () => {
                       direction="column"
                     >
                       {showMoreStaging ? (
-                        <Box mt={10}>
+                        <Box mt={6}>
                           <Text className="project-swiper-title" mb={4}>
                             home <br /> staging
                           </Text>
-                          <Container className="project-swiper-text" px={10}>
+                          <Container className="project-swiper-text" px={2}>
                             We clean, decorate rearrange furniture, and use
                             aesthetic strategies to present your home in the
                             best possible way. If you are looking to sell your
@@ -128,7 +125,7 @@ const otherProjects = () => {
                           <Image
                             src={PalmlPict}
                             width="330px"
-                            height="400px"
+                            height="330px"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"
                           />

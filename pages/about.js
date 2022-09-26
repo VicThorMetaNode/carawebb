@@ -51,13 +51,13 @@ const about = () => {
                     something vibrant, where they can host memorable dinner
                     parties with friends.
                     <br /> <br />
-                    <span className="about-page-keyword">Our job</span> , and
+                    Our job , and
                     passion, is to make sure you are feeling "at home". Whatever
                     that means for you.
                     <br /> <br />"
                     <span
                       className="about-page-bottom-quote"
-                      fontSize={["10px", "17px", "17px"]}
+                      fontSize={["13px", "17px", "17px"]}
                     >
                       We believe in the beauty of simplicity.
                     </span>

@@ -36,20 +36,25 @@ const interiorProjects = () => {
             </Box>
             <Box className="interior-project-text-box">
               <Text className="interior-project-text" width={"22rem"}>
-                We design your interior to bring new perspectives and an
+                We design the interior to bring new perspectives and an
                 aesthetic look.
               </Text>
             </Box>
           </Stack>
         </Container>
         <section className="interior-project-swipe-section">
-          <Swiper className="mySwiper" slidesPerView={1} loop={true}>
+          <Swiper
+            className="mySwiper"
+            slidesPerView={1}
+            loop={true}
+            spaceBetween={30}
+          >
             <SwiperSlide>
               <a onClick={() => setShowMoreBasic(!showMoreBasic)}>
                 {showMoreBasic ? (
                   <Box
-                    width={["300px", "400px", "500px"]}
-                    height={["400px", "500px", "600px"]}
+                    width={["320px", "400px", "500px"]}
+                    height={["330px", "500px", "600px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Box className="project-palm-box">
@@ -73,8 +78,8 @@ const interiorProjects = () => {
                   </Box>
                 ) : (
                   <Box
-                    width={["300px", "400px", "500px"]}
-                    height={["400px", "500px", "600px"]}
+                    width={["320px", "400px", "500px"]}
+                    height={["330px", "500px", "600px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Image
@@ -108,8 +113,8 @@ const interiorProjects = () => {
               <a onClick={() => setShowMoreStandard(!showMoreStandard)}>
                 {showMoreStandard ? (
                   <Box
-                    width={["300px", "400px", "500px"]}
-                    height={["400px", "500px", "600px"]}
+                    width={["320px", "400px", "500px"]}
+                    height={["330px", "500px", "600px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Box className="project-palm-box">
@@ -135,8 +140,8 @@ const interiorProjects = () => {
                   </Box>
                 ) : (
                   <Box
-                    width={["300px", "400px", "500px"]}
-                    height={["400px", "500px", "600px"]}
+                    width={["320px", "400px", "500px"]}
+                    height={["330px", "500px", "600px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Image
@@ -170,8 +175,8 @@ const interiorProjects = () => {
               <a onClick={() => setShowMoreAllIn(!showMoreAllIn)}>
                 {showMoreAllIn ? (
                   <Box
-                    width={["300px", "400px", "500px"]}
-                    height={["400px", "500px", "600px"]}
+                    width={["320px", "400px", "500px"]}
+                    height={["330px", "500px", "600px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Box className="project-palm-box">
@@ -199,8 +204,8 @@ const interiorProjects = () => {
                   </Box>
                 ) : (
                   <Box
-                    width={["300px", "400px", "500px"]}
-                    height={["400px", "500px", "600px"]}
+                    width={["320px", "400px", "500px"]}
+                    height={["330px", "500px", "600px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Image

@@ -18,7 +18,7 @@
 /*------ TITLES AND TEXTS ----*/
 .interior-project-title {
   font-family: var(--ft-cara-title);
-  font-size: var(--font-size-25);
+  font-size: var(--font-size-26);
   color: var(--clr-txt-black-dark);
   text-align: center;
   font-weight: 600;
@@ -141,14 +141,14 @@ color: var(  --clr-border-contact-form) !important;
   margin-top: -2rem;
 }
 
-// .interior-project-bottom-swipe-box {
-// }
-
+.interior-project-bottom-textOne {
+  line-height: 25px;
+}
 
 
 .interior-project-bottom-text-section {
-  
   margin-top: 2rem !important;
+  margin-bottom: 1.3rem !important;
 }
 
 /*------ TITLES AND TEXTS ----*/
