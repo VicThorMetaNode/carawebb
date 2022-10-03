@@ -8,6 +8,7 @@ import Navbar from "../components/NavbarOther";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Navigation } from "swiper";
 
 // import Swiper styles
 import "swiper/css";
@@ -63,24 +64,21 @@ const diaryProjects = () => {
           <Swiper
             className="mySwiper"
             slidesPerView={1.5}
+            // slidesPerView={3}
+            // slidesPerGroup={3}
+            modules={[FreeMode, Navigation]}
             loop={true}
-            spaceBetween={10}
-            breakpoints={{
-              // when window width is >= 768px
-              768: {
-                width: 768,
-                slidesPerView: 3,
-                spaceBetween: 10,
-              },
-            }}
+            spaceBetween={30}
           >
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project1}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -93,12 +91,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project2}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -110,12 +110,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project3}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -127,12 +129,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project4}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -144,12 +148,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project5}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -161,12 +167,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project6}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -178,12 +186,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project7}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -195,12 +205,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project8}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -212,12 +224,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project9}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -229,12 +243,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project10}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -246,12 +262,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project11}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -263,12 +281,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project12}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -280,12 +300,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project13}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -297,12 +319,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project14}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -314,12 +338,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project15}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -331,12 +357,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project16}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -348,12 +376,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project17}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -365,12 +395,14 @@ const diaryProjects = () => {
               </Box>
             </SwiperSlide>
             <SwiperSlide>
-              <Box className="diary-project-swiper-box diary-project-text-hover-section">
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["400px", "500px", "600px"]}
+                height={["400px", "500px", "600px"]}
+              >
                 <Image
                   src={project18}
-                  width="400px"
-                  height="400px"
-                  objectFit="cover"
+                  objectFit="fill"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />

@@ -39,14 +39,24 @@ text-align: right;
 line-height: 2rem;
 }
 
-.landing-page-footer-logo {
-    text-align: right;
-    margin-top: 7rem;
-}
+
 
 
 /*------------------ FOOTER PART  ------------------*/
-.landing-page-footer-section {
 
+
+
+.landing-page-footer-logo {
+    // text-align: right;
+    // margin-top: 7rem;
+  
+position: absolute;
+
+bottom: 0px;
 }
+
+
+// .landing-page-footer-section {
+    
+// }
 

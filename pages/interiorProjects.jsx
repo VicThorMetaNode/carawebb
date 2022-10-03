@@ -54,7 +54,7 @@ const interiorProjects = () => {
                 {showMoreBasic ? (
                   <Box
                     width={["320px", "400px", "500px"]}
-                    height={["330px", "500px", "600px"]}
+                    height={["330px", "400px", "500px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Box className="project-palm-box">
@@ -79,7 +79,7 @@ const interiorProjects = () => {
                 ) : (
                   <Box
                     width={["320px", "400px", "500px"]}
-                    height={["330px", "500px", "600px"]}
+                    height={["330px", "400px", "500px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Image
@@ -114,7 +114,7 @@ const interiorProjects = () => {
                 {showMoreStandard ? (
                   <Box
                     width={["320px", "400px", "500px"]}
-                    height={["330px", "500px", "600px"]}
+                    height={["600px", "400px", "500px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Box className="project-palm-box">
@@ -127,10 +127,15 @@ const interiorProjects = () => {
                           <Text className="project-swiper-title">Standard</Text>
                         </Box>
                         <Box>
-                          <Text className="project-swiper-text">
-                            We guide you through the process of buying new
-                            furniture, flooring decorating elements and
-                            coverings. This is included with a global price
+                          <Text className="project-swiper-text standard">
+                            We listen to your lifestyle, and desires. <br /> We
+                            then present you with a Mood Board adapted to your
+                            specific needs. When we have redefined the wanted
+                            style, we present you personalized visuals (layout
+                            plan, sketches, or 3D views) as well as samples.{" "}
+                            <br /> <br /> We guide you through the process of
+                            buying new furniture, flooring, decorating elements
+                            and coverings. This is included with a global price
                             estimation.
                           </Text>
                         </Box>
@@ -141,7 +146,7 @@ const interiorProjects = () => {
                 ) : (
                   <Box
                     width={["320px", "400px", "500px"]}
-                    height={["330px", "500px", "600px"]}
+                    height={["330px", "400px", "500px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Image
@@ -176,7 +181,7 @@ const interiorProjects = () => {
                 {showMoreAllIn ? (
                   <Box
                     width={["320px", "400px", "500px"]}
-                    height={["330px", "500px", "600px"]}
+                    height={["330px", "400px", "500px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Box className="project-palm-box">
@@ -205,7 +210,7 @@ const interiorProjects = () => {
                 ) : (
                   <Box
                     width={["320px", "400px", "500px"]}
-                    height={["330px", "500px", "600px"]}
+                    height={["330px", "400px", "500px"]}
                     className="project-swiper-div project-palm-section"
                   >
                     <Image

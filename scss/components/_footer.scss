@@ -1,7 +1,9 @@
 /*--------- GENERAL CUSTOMIZE  --------*/
 .cookie-footer-section {
     background-color: transparent ;
-   height: 20px;
+//    height: 20px;
+   position: absolute;
+   bottom: 0px;
 }
 
 
@@ -48,6 +50,6 @@
     text-decoration: underline;
 }
 
-.btn-Google-readMore {
+// .btn-Google-readMore {
     
-}
+// }

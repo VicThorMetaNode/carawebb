@@ -8,6 +8,13 @@
 //     color: var(--clr-txt-yellow);
 //     font-weight: 400;
 // }
+
+// .diary-project-swiper-box {
+// background-color: aqua;
+// width: 400px !important;
+// height: 400px !important;
+// }
+
 .diary-project-text-hover-section {
     position: relative;
     text-align: center;
@@ -35,12 +42,11 @@
     font-weight: 400;
     color: var(--clr-txt-white) !important;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--clr-border-contact-form);
-
-    
+    -webkit-text-stroke-color: var(--clr-border-contact-form);   
 }
 
 // .diary-project-text-hover-section:hover + .diary-project-text-hover + .diary-project-text-hover-box {
 //     display: block;
     
 // }
+
