@@ -9,7 +9,7 @@ import Navbar from "../components/NavbarOther";
 import logo from "../dist/images/logo.png";
 //-------------- Import ICONS --------------
 
-import { ImPinterest2, ImInstagram } from "react-icons/im";
+import { ImInstagram } from "react-icons/im";
 
 const diaryMoodBoard = () => {
   return (
@@ -50,12 +50,11 @@ const diaryMoodBoard = () => {
             spacing={5}
             direction="row"
           >
-            <Box>
-              <ImPinterest2 fontSize={18} color="#d9a563" />
-            </Box>
-            <Box>
-              <ImInstagram fontSize={18} color="#d9a563" />
-            </Box>
+            <Link href="https://www.instagram.com/caradearone/">
+              <Box>
+                <ImInstagram fontSize={18} color="#d9a563" />
+              </Box>
+            </Link>
           </Stack>
         </Box>
       </section>

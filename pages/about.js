@@ -6,8 +6,10 @@ import { Box, Text, Stack, Flex } from "@chakra-ui/react";
 //------ IMPORT COMPONENTS
 import Navbar from "../components/NavbarOther";
 import aboutPict from "../dist/images/about-img.png";
+import aboutPict1 from "../dist/images/iMG_6569.jpg";
+import aboutPict2 from "../dist/images/iMG_6599.jpg";
 
-import { BsArrowUp } from "react-icons/bs";
+// import { BsArrowUp } from "react-icons/bs";
 
 const about = () => {
   //TOGGLE
@@ -40,29 +42,29 @@ const about = () => {
                 But, at the end of the day, all we are looking for is that homey
                 feeling and create unforgettable memories with our loved ones.
                 {showMore && (
-                  <Text
-                    className="about-page-text-partOne-readMore"
-                    fontSize={["13px", "17px", "17px"]}
-                  >
-                    {" "}
-                    <br />
-                    <em>"Feeling at home"</em> can look different for everyone.
-                    Some people want a quiet place to unwind, while others need
-                    something vibrant, where they can host memorable dinner
-                    parties with friends.
-                    <br /> <br />
-                    Our job , and
-                    passion, is to make sure you are feeling "at home". Whatever
-                    that means for you.
-                    <br /> <br />"
-                    <span
-                      className="about-page-bottom-quote"
+                  <>
+                    <Text
+                      className="about-page-text-partOne-readMore"
                       fontSize={["13px", "17px", "17px"]}
                     >
-                      We believe in the beauty of simplicity.
-                    </span>
-                    "{" "}
-                  </Text>
+                      <br />
+                      <em>"Feeling at home"</em> can look different for
+                      everyone. Some people want a quiet place to unwind, while
+                      others need something vibrant, where they can host
+                      memorable dinner parties with friends.
+                      <br /> <br />
+                      Our job , and passion, is to make sure you are feeling "at
+                      home". Whatever that means for you.
+                    </Text>
+                    <Box className="about-page-bottom-quote-div" mt={2}>
+                      <Text
+                        className="about-page-bottom-quote"
+                        fontSize={["13px", "17px", "17px"]}
+                      >
+                        " We believe in the beauty of simplicity".
+                      </Text>
+                    </Box>
+                  </>
                 )}
               </Text>
               <Box mt={6} className="about-page-bottom-btn">
@@ -136,7 +138,7 @@ const about = () => {
             >
               as an endless wanderer I'm constantly on the move...
               <br />
-              currently established in{" "}
+              currently  in{" "}
               <span className="about-current-city">Costa Rica</span>
             </Text>
           </Stack>
@@ -146,7 +148,7 @@ const about = () => {
           <Flex justifyContent="center" alignItems="center">
             <Box className="about-page-image">
               <Image
-                src={aboutPict}
+                src={aboutPict2}
                 alt="Picture of the author"
                 width="400px"
                 height="520px"

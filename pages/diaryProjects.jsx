@@ -63,22 +63,24 @@ const diaryProjects = () => {
         <section className="interior-project-swipe-section">
           <Swiper
             className="mySwiper"
-            slidesPerView={1.5}
+            slidesPerView={1}
             // slidesPerView={3}
             // slidesPerGroup={3}
             modules={[FreeMode, Navigation]}
             loop={true}
-            spaceBetween={30}
+            spaceBetween={10}
           >
             <SwiperSlide>
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
+                // width={["326px", "500px", "600px"]}
+                // height={["400px", "500px", "600px"]}
               >
                 <Image
                   src={project1}
-                  objectFit="fill"
+                  width={"1230px"}
+                  height={"1530px"}
+                  objectFit="cover"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -94,7 +96,7 @@ const diaryProjects = () => {
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
                 width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
+                height={["500px", "500px", "600px"]}
               >
                 <Image
                   src={project2}
@@ -113,7 +115,7 @@ const diaryProjects = () => {
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
                 width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
+                height={["500px", "500px", "600px"]}
               >
                 <Image
                   src={project3}

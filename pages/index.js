@@ -8,7 +8,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 // import internal pictures
-import logoFooter from "../dist/images/logo.png";
+import logoFooter from "../dist/images/logo2.png";
 
 //-------------- BROWSER  -----------
 export default function Home() {

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 import { Box, Text, HStack, Container, Stack } from "@chakra-ui/react";
@@ -128,8 +129,8 @@ const interiorProjects = () => {
                         </Box>
                         <Box>
                           <Text className="project-swiper-text standard">
-                            We listen to your lifestyle, and desires. <br /> We
-                            then present you with a Mood Board adapted to your
+                            We listen to your lifestyle, and desires. We then
+                            present you with a Mood Board adapted to your
                             specific needs. When we have redefined the wanted
                             style, we present you personalized visuals (layout
                             plan, sketches, or 3D views) as well as samples.{" "}
@@ -307,12 +308,14 @@ const interiorProjects = () => {
                 className="interior-project-bottom-textOne"
                 width={["15rem", "20rem", "auto"]}
               >
-                Not sure? Let's hop on a free discovery call to discuss your
-                needs
+                Not sure? <br /> Let's hop on a free discovery call to discuss
+                your needs
               </Text>
             </Box>
             <Box className="interior-project-bottom-button-box">
-              <button className=" btn-discovery-call">discovery call</button>
+              <Link href="https://calendly.com/caradearone/30min">
+                <button className=" btn-discovery-call">discovery call</button>
+              </Link>
             </Box>
             <Box>
               <Text className="interior-project-bottom-textTwo">

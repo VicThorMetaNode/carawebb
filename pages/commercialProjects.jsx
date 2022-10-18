@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 import { Box, Text, Container, Stack } from "@chakra-ui/react";
@@ -168,9 +169,11 @@ const otherProjects = () => {
                       </Text>
                     </Box>
                     <Box className="interior-project-bottom-button-box">
-                      <button className=" btn-discovery-call">
-                        discovery call
-                      </button>
+                      <Link href="https://calendly.com/caradearone/30min">
+                        <button className=" btn-discovery-call">
+                          discovery call
+                        </button>
+                      </Link>
                     </Box>
                     <Box>
                       <Text className="interior-project-bottom-textTwo">

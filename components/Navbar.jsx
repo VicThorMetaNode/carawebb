@@ -17,7 +17,7 @@ import {
 
 //-------------- Import ICONS --------------
 import { GoThreeBars } from "react-icons/go";
-import { ImPinterest2, ImInstagram } from "react-icons/im";
+import { ImInstagram } from "react-icons/im";
 import { BiMinus, BiPlus } from "react-icons/bi";
 const Navbar = () => {
   //TOGGLE
@@ -206,12 +206,11 @@ const Navbar = () => {
                       margin={2}
                       padding={1}
                     >
-                      <Box>
-                        <ImPinterest2 fontSize={15} />
-                      </Box>
-                      <Box>
-                        <ImInstagram fontSize={15} />
-                      </Box>
+                      <Link href="https://www.instagram.com/caradearone/">
+                        <Box>
+                          <ImInstagram fontSize={15} />
+                        </Box>
+                      </Link>
                     </Stack>
                   </MenuList>
                 </Box>
