@@ -20,7 +20,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <Box className="cookie-footer-section">
+        <Box className="cookie-footer-section" mb={4}>
           <Box paddingTop={1}>
             <Flex justifyContent="center" alignItems="center">
               <a onClick={onOpen} className="cursor-cookie-link">

@@ -148,7 +148,7 @@ const about = () => {
           <Flex justifyContent="center" alignItems="center">
             <Box className="about-page-image">
               <Image
-                src={aboutPict2}
+                src={aboutPict1}
                 alt="Picture of the author"
                 width="400px"
                 height="520px"
