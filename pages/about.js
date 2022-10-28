@@ -5,8 +5,8 @@ import { Box, Text, Stack, Flex } from "@chakra-ui/react";
 
 //------ IMPORT COMPONENTS
 import Navbar from "../components/NavbarOther";
-import aboutPict from "../dist/images/about-img.png";
-import aboutPict1 from "../dist/images/iMG_6569.jpg";
+// import aboutPict from "../dist/images/about-img.png";
+// import aboutPict1 from "../dist/images/iMG_6569.jpg";
 import aboutPict2 from "../dist/images/iMG_6599.jpg";
 
 // import { BsArrowUp } from "react-icons/bs";
@@ -91,7 +91,7 @@ const about = () => {
           >
             <Box
               className="about-page-partTwo-boxTextOne"
-              ml={["-12rem", "30rem"]}
+              // ml={["-12rem", "-5rem", "30rem"]}
             >
               <Text className="about-page-partTwo-textLeft" fontSize={"45px"}>
                 {" "}
@@ -148,7 +148,7 @@ const about = () => {
           <Flex justifyContent="center" alignItems="center">
             <Box className="about-page-image">
               <Image
-                src={aboutPict1}
+                src={aboutPict2}
                 alt="Picture of the author"
                 width="400px"
                 height="520px"

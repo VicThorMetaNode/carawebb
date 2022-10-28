@@ -56,10 +56,51 @@
 }
 
 /*------------------ PART TWO  ------------------*/
+/*------ SECTIONS  ------*/
 
 .about-page-partTwo-section {
-  background-color: var(--clr-bg-light-grey);
+  // background-color: var(--clr-bg-light-grey);
+  background-color: aqua;
   max-width: 80rem;
+}
+
+// .about-page-partTwo-boxTextOne{
+//   margin-left: -12rem;
+// }
+
+
+.about-page-partTwo-boxTextTwo {
+  margin-right: 2rem;
+  max-width: 25rem;
+}
+
+@media screen and (min-width: 300px) {
+  .about-page-partTwo-boxTextOne {
+    // max-width: 300px;
+    margin-left: -12rem;
+    // margin-bottom: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .about-page-partTwo-boxTextOne {
+    // max-width: 300px;
+    margin-left: -12rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .about-page-partTwo-boxTextOne{
+    // max-width: 600px;
+    margin-left: -10rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-page-partTwo-boxTextOne {
+    // max-width: 700px;
+    margin-left: -10rem;
+  }
 }
 
 // .about-page-partTwo-flex {
@@ -69,6 +110,7 @@
 // }
 
 
+/*------ TEXT & TITLE  ------*/
 
 .about-page-partTwo-textLeft {
   font-family: var(--ft-cara-title);
@@ -80,13 +122,6 @@
   letter-spacing: 10px;
 }
 
-.about-page-partTwo-boxTextOne{
-  margin-left: -12rem;
-}
-.about-page-partTwo-boxTextTwo {
-  margin-right: 2rem;
-  max-width: 25rem;
-}
 
 .about-page-partTwo-textRight {
   
