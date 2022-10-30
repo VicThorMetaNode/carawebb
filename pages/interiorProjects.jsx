@@ -313,7 +313,7 @@ const interiorProjects = () => {
               </Text>
             </Box>
             <Box className="interior-project-bottom-button-box">
-              <Link href="https://calendly.com/caradearone/30min">
+              <Link href="https://calendly.com/caradearone/15min">
                 <button className=" btn-discovery-call">discovery call</button>
               </Link>
             </Box>
