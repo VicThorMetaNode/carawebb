@@ -43,14 +43,14 @@ export default function Home() {
           <Box
             className="landing-page-footer-logo"
             width="90px"
-            height="100px"
+            height="90px"
             position={"absolute"}
             right={["0rem", "0rem", "3rem"]}
           >
             {/* position={"absolute"}
             right={[-2, -2, 7]}
             bottom={"0"} */}
-            <Image src={logoFooter} objectFit="cover" alt="Logo Picture" />
+            <Image src={logoFooter} objectFit="fill" alt="Logo Picture" />
           </Box>
           {/* </Flex> */}
           {/* ANCIEN FOOTER */}
