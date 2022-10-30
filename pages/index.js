@@ -48,9 +48,9 @@ export default function Home() {
           </Box>
            */}
 
-          {/* <Flex flexWrap="wrap" justifyContent="center" alignItems="center">
+          <Box>
             <Footer />
-          </Flex> */}
+          </Box>
         </Box>
       </section>
     </>
