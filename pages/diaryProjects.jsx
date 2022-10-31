@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 
 import { Box, Text, HStack, Container, Stack } from "@chakra-ui/react";
@@ -37,6 +37,8 @@ import project17 from "../dist/images/RIVA 5.JPG";
 import project18 from "../dist/images/RIVA 6 .JPG";
 
 const diaryProjects = () => {
+  //TAP TO DISCOVER
+  const [showCity, setShowCity] = useState(false);
   return (
     <>
       <section className="diary-projects-page-section">
@@ -63,7 +65,7 @@ const diaryProjects = () => {
             </Box> */}
           </Stack>
         </Container>
-        <section className="interior-project-swipe-section">
+        <Box mt={5} height={["350px", "500px", "600px"]}>
           <Swiper
             className="mySwiper"
             slidesPerView={1}
@@ -75,422 +77,72 @@ const diaryProjects = () => {
             spaceBetween={10}
           >
             <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  priority
-                  src={project12}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project13}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project14}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project15}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project16}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project17}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project18}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["326px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project1}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
+              <a onClick={() => setShowCity(!showCity)}>
+                {showCity ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project12}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack justifyContent="center" alignItems="center">
+                        <Text className="project-swiper-title project-palm-title diary-border">
+                          Riva
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project12}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
 
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["500px", "500px", "600px"]}
-              >
-                <Image
-                  src={project2}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["500px", "500px", "600px"]}
-              >
-                <Image
-                  src={project3}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project4}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project5}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project6}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project7}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project8}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project9}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project10}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
-            </SwiperSlide>
-            <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["400px", "500px", "600px"]}
-                height={["400px", "500px", "600px"]}
-              >
-                <Image
-                  src={project11}
-                  layout="fill"
-                  objectFit="contain"
-                  placeholder="blur"
-                  blurDataURL="./dist/images/blur.png"
-                  alt="Diary Projects Picture"
-                  className="diary-projects-img"
-                />
-              </Box>
-              <Box className="diary-project-text-hover-box" py={2} px={3}>
-                <Stack justifyContent="center" alignItems="center">
-                  <Text className="diary-project-text-hover">Belgium</Text>
-                </Stack>
-              </Box>
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
             </SwiperSlide>
           </Swiper>
-        </section>
-        <Box mt={["-10rem", "-5rem", "0rem"]}>
+        </Box>
+        <Box mt={["1rem", "2rem", "3rem"]}>
           <Stack justifyContent="center" alignItems="center" direction="column">
             <Box className="interior-project-bottom-swipe-box">
               <HStack>
                 <BsArrowLeftShort className="arrow-swipe-icon" size="30px" />
-                <Text className="interior-project-bottom-swipe-text">
-                  swipe & tap to discover more
-                </Text>
+                <Text className="interior-project-bottom-swipe-text">next</Text>
                 <BsArrowRightShort className="arrow-swipe-icon" size="30px" />
               </HStack>
             </Box>
           </Stack>
-          {/* <Box mb={2}>
+          <Box mb={2}>
             <Text className="diary-text-discover-arrow">
               tap to discover more
             </Text>
-          </Box> */}
+          </Box>
         </Box>
       </section>
     </>
