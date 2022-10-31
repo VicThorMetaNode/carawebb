@@ -95,6 +95,22 @@
   text-transform: nowrap;
 }
 
+/*------------------ PALM BOX PART  ------------------*/
+
+
+.project-palm-title {
+  color: var(--clr-txt-white) !important;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--clr-border-contact-form);
+  
+}
+
+.project-palm-text {
+  text-decoration: underline;
+  color: var(  --clr-border-contact-form) !important; 
+}
+
+
 
 
 /*------------------ PALM BOX PART  ------------------*/

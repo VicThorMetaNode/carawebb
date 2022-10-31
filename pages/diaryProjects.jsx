@@ -94,12 +94,17 @@ const diaryProjects = () => {
                       className="diary-projects-img"
                     />
                     <Box className="project-palm-box ">
-                      <Stack justifyContent="center" alignItems="center">
-                        <Text
-                          className="project-swiper-title project-palm-title diary-border"
-                          px={6}
-                        >
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title" px={6}>
                           Riva
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Brussels, be
                         </Text>
                       </Stack>
                     </Box>
@@ -131,7 +136,10 @@ const diaryProjects = () => {
             </SwiperSlide>
           </Swiper>
         </Box>
-        <Box mt={["1rem", "2rem", "3rem"]}>
+        <Box mt={["-1rem", "0rem", "0rem"]}>
+          <Text className="diary-text-discover-arrow">tap for more info</Text>
+        </Box>
+        <Box>
           <Stack justifyContent="center" alignItems="center" direction="column">
             <Box className="interior-project-bottom-swipe-box">
               <HStack>
@@ -141,11 +149,6 @@ const diaryProjects = () => {
               </HStack>
             </Box>
           </Stack>
-          <Box mb={2}>
-            <Text className="diary-text-discover-arrow">
-              tap to discover more
-            </Text>
-          </Box>
         </Box>
       </section>
     </>
