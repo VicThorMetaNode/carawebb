@@ -95,7 +95,10 @@ const diaryProjects = () => {
                     />
                     <Box className="project-palm-box ">
                       <Stack justifyContent="center" alignItems="center">
-                        <Text className="project-swiper-title project-palm-title diary-border">
+                        <Text
+                          className="project-swiper-title project-palm-title diary-border"
+                          px={6}
+                        >
                           Riva
                         </Text>
                       </Stack>
