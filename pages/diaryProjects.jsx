@@ -475,22 +475,22 @@ const diaryProjects = () => {
           </Swiper>
         </section>
         <Box mt={["-10rem", "-5rem", "0rem"]}>
-          <Box>
-            <Text className="project-palm-text project-swiper-text">
-              tap to discover more
-            </Text>
-          </Box>
           <Stack justifyContent="center" alignItems="center" direction="column">
             <Box className="interior-project-bottom-swipe-box">
               <HStack>
                 <BsArrowLeftShort className="arrow-swipe-icon" size="30px" />
                 <Text className="interior-project-bottom-swipe-text">
-                  swipe
+                  swipe & tap to discover more
                 </Text>
                 <BsArrowRightShort className="arrow-swipe-icon" size="30px" />
               </HStack>
             </Box>
           </Stack>
+          {/* <Box mb={2}>
+            <Text className="diary-text-discover-arrow">
+              tap to discover more
+            </Text>
+          </Box> */}
         </Box>
       </section>
     </>
