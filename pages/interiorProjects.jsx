@@ -84,8 +84,11 @@ const interiorProjects = () => {
                     className="project-swiper-div project-palm-section"
                   >
                     <Image
+                      priority
                       src={PalmlPict}
                       layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />
@@ -153,6 +156,8 @@ const interiorProjects = () => {
                     <Image
                       src={PalmlPict}
                       layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />
@@ -217,6 +222,8 @@ const interiorProjects = () => {
                     <Image
                       src={PalmlPict}
                       layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />

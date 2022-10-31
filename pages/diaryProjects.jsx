@@ -13,6 +13,9 @@ import { FreeMode, Navigation } from "swiper";
 // import Swiper styles
 import "swiper/css";
 
+//----- IMPORT ICONS
+import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+
 // import internal pictures
 import project1 from "../dist/images/BUYERSIDE FORMAL LOUNGE .JPG";
 import project2 from "../dist/images/BUYERSIDE FORMAL LOUNGE 2 .JPG";
@@ -66,6 +69,7 @@ const diaryProjects = () => {
             slidesPerView={1}
             // slidesPerView={3}
             // slidesPerGroup={3}
+
             modules={[FreeMode, Navigation]}
             loop={true}
             spaceBetween={10}
@@ -77,8 +81,12 @@ const diaryProjects = () => {
                 height={["400px", "500px", "600px"]}
               >
                 <Image
+                  priority
                   src={project12}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -97,7 +105,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project13}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -116,7 +127,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project14}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -135,7 +149,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project15}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -154,7 +171,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project16}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -173,7 +193,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project17}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -192,7 +215,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project18}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -211,7 +237,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project1}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -231,7 +260,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project2}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -250,7 +282,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project3}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -269,7 +304,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project4}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -288,7 +326,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project5}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -307,7 +348,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project6}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -326,7 +370,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project7}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -345,7 +392,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project8}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -364,7 +414,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project9}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -383,7 +436,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project10}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -402,7 +458,10 @@ const diaryProjects = () => {
               >
                 <Image
                   src={project11}
-                  objectFit="fill"
+                  layout="fill"
+                  objectFit="contain"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
                   alt="Diary Projects Picture"
                   className="diary-projects-img"
                 />
@@ -415,6 +474,24 @@ const diaryProjects = () => {
             </SwiperSlide>
           </Swiper>
         </section>
+        <Box mt={["-10rem", "-5rem", "0rem"]}>
+          <Box>
+            <Text className="project-palm-text project-swiper-text">
+              tap to discover more
+            </Text>
+          </Box>
+          <Stack justifyContent="center" alignItems="center" direction="column">
+            <Box className="interior-project-bottom-swipe-box">
+              <HStack>
+                <BsArrowLeftShort className="arrow-swipe-icon" size="30px" />
+                <Text className="interior-project-bottom-swipe-text">
+                  swipe
+                </Text>
+                <BsArrowRightShort className="arrow-swipe-icon" size="30px" />
+              </HStack>
+            </Box>
+          </Stack>
+        </Box>
       </section>
     </>
   );

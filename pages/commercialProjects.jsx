@@ -68,9 +68,12 @@ const otherProjects = () => {
                       ) : (
                         <Box className="project-palm-section">
                           <Image
+                            priority
                             src={PalmlPict}
                             width="330px"
                             height="330px"
+                            placeholder="blur"
+                            blurDataURL="./dist/images/blur.png"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"
                           />
@@ -127,6 +130,8 @@ const otherProjects = () => {
                             src={PalmlPict}
                             width="330px"
                             height="330px"
+                            placeholder="blur"
+                            blurDataURL="./dist/images/blur.png"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"
                           />
