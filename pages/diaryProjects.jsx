@@ -857,7 +857,7 @@ const diaryProjects = () => {
                         spacing="0.50rem"
                       >
                         <Text className=" diary-title-reduced" px={6}>
-                          By Your Side
+                          meeting room
                         </Text>
                         <Text className=" diary-text" px={6}>
                           Woluwe, be
@@ -915,7 +915,7 @@ const diaryProjects = () => {
                         spacing="0.50rem"
                       >
                         <Text className=" diary-title-reduced" px={6}>
-                          By Your Side
+                          meeting room
                         </Text>
                         <Text className=" diary-text" px={6}>
                           Woluwe, be
@@ -973,7 +973,7 @@ const diaryProjects = () => {
                         spacing="0.50rem"
                       >
                         <Text className=" diary-title-reduced" px={6}>
-                          By Your Side
+                          meeting room
                         </Text>
                         <Text className=" diary-text" px={6}>
                           Woluwe, be
@@ -1031,7 +1031,7 @@ const diaryProjects = () => {
                         spacing="0.50rem"
                       >
                         <Text className=" diary-title-reduced" px={6}>
-                          By Your Side
+                          meeting room
                         </Text>
                         <Text className=" diary-text" px={6}>
                           Woluwe, be
@@ -1089,7 +1089,7 @@ const diaryProjects = () => {
                         spacing="0.50rem"
                       >
                         <Text className=" diary-title-reduced" px={6}>
-                          By Your Side
+                          meeting room
                         </Text>
                         <Text className=" diary-text" px={6}>
                           Woluwe, be
