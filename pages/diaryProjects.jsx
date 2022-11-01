@@ -39,6 +39,8 @@ import project18 from "../dist/images/RIVA 6 .JPG";
 const diaryProjects = () => {
   //TAP TO DISCOVER
   const [showCity, setShowCity] = useState(false);
+  const [showPilates, setShowPilates] = useState(false);
+  const [showLounge, setShowLounge] = useState(false);
   return (
     <>
       <section className="diary-projects-page-section">
@@ -118,6 +120,992 @@ const diaryProjects = () => {
                     <Image
                       priority
                       src={project12}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowCity(!showCity)}>
+                {showCity ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project13}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title" px={6}>
+                          Riva
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Brussels, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project13}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowCity(!showCity)}>
+                {showCity ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project14}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title" px={6}>
+                          Riva
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Brussels, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project14}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowCity(!showCity)}>
+                {showCity ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project15}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title" px={6}>
+                          Riva
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Brussels, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project15}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowCity(!showCity)}>
+                {showCity ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project12}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title" px={6}>
+                          Riva
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Brussels, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project16}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowCity(!showCity)}>
+                {showCity ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project17}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title" px={6}>
+                          Riva
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Brussels, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project17}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowCity(!showCity)}>
+                {showCity ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project18}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title" px={6}>
+                          Riva
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Brussels, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project18}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowPilates(!showPilates)}>
+                {showPilates ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project6}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-pilates" px={6}>
+                          Pilates studio
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Forest, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project6}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowPilates(!showPilates)}>
+                {showPilates ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project7}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-pilates" px={6}>
+                          Pilates studio
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Forest, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project7}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowPilates(!showPilates)}>
+                {showPilates ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project8}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-pilates" px={6}>
+                          Pilates studio
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Forest, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project8}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowPilates(!showPilates)}>
+                {showPilates ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project9}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-pilates" px={6}>
+                          Pilates studio
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Forest, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project9}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowPilates(!showPilates)}>
+                {showPilates ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project10}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-pilates" px={6}>
+                          Pilates studio
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Forest, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project10}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowPilates(!showPilates)}>
+                {showPilates ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project11}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-pilates" px={6}>
+                          Pilates studio
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Forest, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project11}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowLounge(!showLounge)}>
+                {showLounge ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project1}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-reduced" px={6}>
+                          By Your Side
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Woluwe, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project1}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowLounge(!showLounge)}>
+                {showLounge ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project2}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-reduced" px={6}>
+                          By Your Side
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Woluwe, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project2}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowLounge(!showLounge)}>
+                {showLounge ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project3}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-reduced" px={6}>
+                          By Your Side
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Woluwe, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project3}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowLounge(!showLounge)}>
+                {showLounge ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project4}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-reduced" px={6}>
+                          By Your Side
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Woluwe, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project4}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                  </Box>
+                )}
+              </a>
+
+              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
+              //   <Stack justifyContent="center" alignItems="center">
+              //     <Text className="diary-project-text-hover">Belgium</Text>
+              //   </Stack>
+              // </Box> */}
+            </SwiperSlide>
+            <SwiperSlide>
+              <a onClick={() => setShowLounge(!showLounge)}>
+                {showLounge ? (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project5}
+                      layout="fill"
+                      placeholder="blur"
+                      blurDataURL="./dist/images/blur.png"
+                      alt="Diary Projects Picture"
+                      className="diary-projects-img"
+                    />
+                    <Box className="project-palm-box ">
+                      <Stack
+                        justifyContent="center"
+                        alignItems="center"
+                        direction="column"
+                        spacing="0.50rem"
+                      >
+                        <Text className=" diary-title-reduced" px={6}>
+                          By Your Side
+                        </Text>
+                        <Text className=" diary-text" px={6}>
+                          Woluwe, be
+                        </Text>
+                      </Stack>
+                    </Box>
+                  </Box>
+                ) : (
+                  <Box
+                    className="diary-project-swiper-box diary-project-text-hover-section"
+                    width={["320px", "500px", "600px"]}
+                    height={["330px", "500px", "600px"]}
+                  >
+                    <Image
+                      priority
+                      src={project5}
                       layout="fill"
                       placeholder="blur"
                       blurDataURL="./dist/images/blur.png"
