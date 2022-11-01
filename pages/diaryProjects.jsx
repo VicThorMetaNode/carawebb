@@ -320,7 +320,7 @@ const diaryProjects = () => {
                   >
                     <Image
                       priority
-                      src={project12}
+                      src={project16}
                       layout="fill"
                       placeholder="blur"
                       blurDataURL="./dist/images/blur.png"
@@ -378,7 +378,7 @@ const diaryProjects = () => {
                   >
                     <Image
                       priority
-                      src={project16}
+                      src={project17}
                       layout="fill"
                       placeholder="blur"
                       blurDataURL="./dist/images/blur.png"
