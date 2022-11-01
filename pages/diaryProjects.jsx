@@ -378,7 +378,7 @@ const diaryProjects = () => {
                   >
                     <Image
                       priority
-                      src={project17}
+                      src={project16}
                       layout="fill"
                       placeholder="blur"
                       blurDataURL="./dist/images/blur.png"
