@@ -23,8 +23,12 @@ const diaryMoodBoard = () => {
             <Box>
               <Text className="interior-project-title">MoodBoards</Text>
             </Box>
-            <Box className="interior-project-subtitle-box">
-              <Text className="interior-project-subtitle">Coming soon</Text>
+
+            <Box className="interior-project-text-box">
+              <Text className="interior-project-text" width={"22rem"}>
+                An arrangement of images, materials, pieces of text, etc.
+                intended to evoke or project a particular style or concept.
+              </Text>
             </Box>
           </Stack>
         </Box>

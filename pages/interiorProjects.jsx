@@ -35,12 +35,6 @@ const interiorProjects = () => {
                 interiors projects
               </Text>
             </Box>
-            <Box className="interior-project-text-box">
-              <Text className="interior-project-text" width={"22rem"}>
-                We design your interior to bring new perspectives and an
-                aesthetic look.
-              </Text>
-            </Box>
           </Stack>
         </Container>
         <section className="interior-project-swipe-section">
