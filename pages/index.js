@@ -7,7 +7,7 @@ import Link from "next/link";
 // import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-const Navbar = dynamic(()=>import('../components/Navbar"'))
+const Navbar = dynamic(() => import("../components/Navbar"));
 
 //-------------- BROWSER  -----------
 export default function Home() {
