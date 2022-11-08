@@ -1,15 +1,17 @@
 import React, { useState } from "react";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 
 import { Box, Text, Stack, Flex } from "@chakra-ui/react";
 
 //------ IMPORT COMPONENTS
-import Navbar from "../components/NavbarOther";
-// import aboutPict from "../dist/images/about-img.png";
-// import aboutPict1 from "../dist/images/iMG_6569.jpg";
+
+
 import aboutPict2 from "../dist/images/iMG_6599.jpg";
 
-// import { BsArrowUp } from "react-icons/bs";
+//LAZY IMPORT: import this part lately
+const Navbar = dynamic(() => import("../components/NavbarOther"));
+
 
 const about = () => {
   //TOGGLE
