@@ -34,7 +34,7 @@ import project14 from "../dist/images/webp/RIVA-2.webp";
 import project15 from "../dist/images/webp/RIVA-3.webp";
 import project16 from "../dist/images/webp/RIVA-4.webp";
 import project17 from "../dist/images/webp/RIVA-5.webp";
-import project18 from "../dist/images/webp/RIVA-6.webp";
+import project18 from "../dist/images/webp/RIVA-6-.webp";
 
 const diaryProjects = () => {
   //TAP TO DISCOVER
