@@ -9,25 +9,26 @@ export default function Layout({ children }) {
     <>
       <Head>
         {/* <!-- Primary Meta Tags --> */}
-        <title>cara.DEARONE</title>
-        <meta name="title" content="cara.DEARONE" />
+        <title>cara.DEARONE - interior design</title>
+        <meta name="title" content="cara.DEARONE - interior design" />
         <meta
           name="description"
           content="      We design the interior to bring new perspectives and an
                 aesthetic look."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* <!-- FACICON -->  */}
         <link rel="shortcut icon" href="/favicon.ico" />
 
         {/* <!-- SEARCH CONSOLE Meta Tags -->  */}
         <meta
           name="google-site-verification"
-          content="`${process.env.NEXT_PUBLIC_GOOGLE_SEARCH}`"
+          content="0hqcyJWnjl5Bvf2ASDyvvXEHOk5YXffxpsTIg9rcEzY"
         />
 
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:url" content="https://caradearone.com/" />
         <meta property="og:title" content="cara.DEARONE" />
         <meta
           property="og:description"
@@ -41,7 +42,7 @@ export default function Layout({ children }) {
 
         {/* <!-- Twitter --> */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:url" content="https://caradearone.com" />
         <meta property="twitter:title" content="cara.DEARONE" />
         <meta
           property="twitter:description"
