@@ -26,7 +26,7 @@ const otherProjects = () => {
             </Box>
             <Box className="interior-project-subtitle-box">
               <Text className="interior-project-subtitle" width={"25rem"}>
-                commercial projects & home staging
+                commercial events & home staging
               </Text>
             </Box>
             <Box className="interior-project-text-box">
@@ -44,61 +44,6 @@ const otherProjects = () => {
               direction="column"
             >
               <Box>
-                <a onClick={() => setShowMoreCommercial(!showMoreCommercial)}>
-                  <Box
-                    width="330px"
-                    height="330px"
-                    className="project-swiper-div spacer-other-projet"
-                  >
-                    <Stack
-                      justifyContent="center"
-                      alignItems="center"
-                      direction="column"
-                    >
-                      {showMoreCommercial ? (
-                        <Box mt={10}>
-                          <Text className="project-swiper-title" mb={4}>
-                            commercial projects
-                          </Text>
-                          <Container className="project-swiper-text" px={10}>
-                            We decorate, rearrange furniture to showcase
-                            restaurants, lobbies and retail spaces
-                          </Container>
-                        </Box>
-                      ) : (
-                        <Box className="project-palm-section">
-                          <Image
-                            priority
-                            src={PalmlPict}
-                            width="330px"
-                            height="330px"
-                            placeholder="blur"
-                            blurDataURL="./dist/images/blur.png"
-                            alt="Palm Picture by Augustine Wong"
-                            className="img-palm"
-                          />
-                          <Box className="project-palm-box">
-                            <Stack
-                              justifyContent="center"
-                              alignItems="center"
-                              direction="column"
-                              spacing="0.50rem"
-                            >
-                              <Text className="project-swiper-title project-palm-title">
-                                commercial
-                              </Text>
-
-                              <Text className="project-palm-text project-swiper-text">
-                                tap to discover
-                              </Text>
-                            </Stack>
-                          </Box>
-                        </Box>
-                      )}
-                    </Stack>
-                  </Box>
-                </a>
-
                 <a onClick={() => setShowMoreStaging(!showMoreStaging)}>
                   <Box
                     mt={10}
@@ -144,6 +89,62 @@ const otherProjects = () => {
                             >
                               <Text className="project-swiper-title project-palm-title">
                                 home staging
+                              </Text>
+
+                              <Text className="project-palm-text project-swiper-text">
+                                tap to discover
+                              </Text>
+                            </Stack>
+                          </Box>
+                        </Box>
+                      )}
+                    </Stack>
+                  </Box>
+                </a>
+
+                <a onClick={() => setShowMoreCommercial(!showMoreCommercial)}>
+                  <Box
+                    width="330px"
+                    height="330px"
+                    className="project-swiper-div spacer-other-projet"
+                  >
+                    <Stack
+                      justifyContent="center"
+                      alignItems="center"
+                      direction="column"
+                    >
+                      {showMoreCommercial ? (
+                        <Box mt={10}>
+                          <Text className="project-swiper-title" mb={4}>
+                            commercial events
+                          </Text>
+                          <Container className="project-swiper-text" px={10}>
+                            We decorate, rearrange furniture to showcase
+                            restaurants, lobbies, retail spaces and commercial
+                            events.
+                          </Container>
+                        </Box>
+                      ) : (
+                        <Box className="project-palm-section">
+                          <Image
+                            priority
+                            src={PalmlPict}
+                            width="330px"
+                            height="330px"
+                            placeholder="blur"
+                            blurDataURL="./dist/images/blur.png"
+                            alt="Palm Picture by Augustine Wong"
+                            className="img-palm"
+                          />
+                          <Box className="project-palm-box">
+                            <Stack
+                              justifyContent="center"
+                              alignItems="center"
+                              direction="column"
+                              spacing="0.50rem"
+                            >
+                              <Text className="project-swiper-title project-palm-title">
+                                commercial
                               </Text>
 
                               <Text className="project-palm-text project-swiper-text">

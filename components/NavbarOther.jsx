@@ -128,7 +128,7 @@ const NavbarOther = () => {
                               _hover={{ bg: "#A6A6A6" }}
                             >
                               <Link href="/commercialProjects">
-                                commercial projects & home staging
+                                commercial events & home staging
                               </Link>
                             </MenuItem>{" "}
                           </>
