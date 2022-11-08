@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Box, Text, HStack, Container, Stack } from "@chakra-ui/react";
+import { Box, Text, Stack } from "@chakra-ui/react";
 
 //------ IMPORT COMPONENTS
 import Navbar from "../components/NavbarOther";

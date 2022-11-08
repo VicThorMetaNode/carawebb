@@ -22,19 +22,19 @@ import project2 from "../dist/images/BUYERSIDE FORMAL LOUNGE 2 .JPG";
 import project3 from "../dist/images/BUYERSIDE FORMAL LOUNGE 3.JPG";
 import project4 from "../dist/images/BUYERSIDE FORMAL LOUNGE.JPG";
 import project5 from "../dist/images/BUYERSIDE FORMAL LOUNGE1.JPG";
-import project6 from "../dist/images/PILATES STUDIO .jpeg";
+import project6 from "../dist/images/webp/PILATES-STUDIO.webp";
 import project7 from "../dist/images/PILATES STUDIO 1.jpeg";
 import project8 from "../dist/images/PILATES STUDIO 2.jpeg";
 import project9 from "../dist/images/PILATES STUDIO 3.jpeg";
 import project10 from "../dist/images/PILATES STUDIO 4.jpeg";
 import project11 from "../dist/images/PILATES STUDIO.jpeg";
-import project12 from "../dist/images/RIVA .JPG";
-import project13 from "../dist/images/RIVA 1.JPG";
-import project14 from "../dist/images/RIVA 2.JPG";
-import project15 from "../dist/images/RIVA 3.jpeg";
-import project16 from "../dist/images/RIVA 4.JPG";
-import project17 from "../dist/images/RIVA 5.JPG";
-import project18 from "../dist/images/RIVA 6 .JPG";
+import project12 from "../dist/images/webp/RIVA-.webp";
+import project13 from "../dist/images/webp/RIVA-1.webp";
+import project14 from "../dist/images/webp/RIVA-2.webp";
+import project15 from "../dist/images/webp/RIVA-3.webp";
+import project16 from "../dist/images/webp/RIVA-4.webp";
+import project17 from "../dist/images/webp/RIVA-5.webp";
+import project18 from "../dist/images/webp/RIVA-6.webp";
 
 const diaryProjects = () => {
   //TAP TO DISCOVER

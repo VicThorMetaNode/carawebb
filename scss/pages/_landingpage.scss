@@ -1,7 +1,7 @@
 /*------------------ GLOBAL PART  ------------------*/
 .landing-page {
     min-height: 100vh;
-    background: url(../../dist/images/cat-han-URi_yR9qtgs-unsplash.jpg) no-repeat center center fixed; 
+    background: url(../../dist/images/landing-bg.webp) no-repeat center center fixed; 
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,20 +13,6 @@
     overflow-x: hidden; 
     overflow-y: auto;
 }
-
-// .landing-page-test {
-//     // display: block;
-//     // background: #CFF;
-//     // height:100%;
-//     // width:100%;
-//     // box-sizing:border-box;
-
-//     width: 100%;
-//   height: 100%;
-//   display: block;
-//      overflow-x: hidden !important; 
-//      overflow-y: auto;
-// }
 
 .landing-page-section-title {
 padding-top: 10rem;
@@ -67,8 +53,7 @@ line-height: 2rem;
 
 
 .landing-page-footer-logo {
-    // text-align: right;
-    // margin-top: 7rem;
+
   
 position: absolute;
 
@@ -76,7 +61,5 @@ bottom: -2rem;
 }
 
 
-// .landing-page-footer-section {
-    
-// }
+
 

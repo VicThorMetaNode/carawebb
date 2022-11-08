@@ -6,7 +6,6 @@ import logoFooter from "../dist/images/logo2.png";
 import {
   Box,
   Text,
-  Flex,
   Container,
   Button,
   HStack,
@@ -18,7 +17,6 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
-  Stack,
 } from "@chakra-ui/react";
 const Footer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();

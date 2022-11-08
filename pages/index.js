@@ -1,11 +1,13 @@
 // ------------------ HOME PAGE -------------------
 import React from "react";
-
+import dynamic from "next/dynamic";
 import { Box, Text, Flex, VStack } from "@chakra-ui/react";
 import Link from "next/link";
 //------ IMPORT COMPONENTS
-import Navbar from "../components/Navbar";
+// import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+
+const Navbar = dynamic(()=>import('../components/Navbar"'))
 
 //-------------- BROWSER  -----------
 export default function Home() {
