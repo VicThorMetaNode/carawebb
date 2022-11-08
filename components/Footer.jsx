@@ -163,7 +163,6 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
-  Stack,
 } from "@chakra-ui/react";
 const Footer = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
