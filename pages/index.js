@@ -10,9 +10,7 @@ import Footer from "../components/Footer";
 //LAZY IMPORT: import this part lately
 const Navbar = dynamic(() => import("../components/Navbar"));
 
-export const config = {
-  unstable_runtimeJS : false
-}
+
 
 //-------------- BROWSER  -----------
 export default function Home() {
