@@ -45,7 +45,7 @@ const diaryMoodBoard = () => {
             </Box>
           </Stack>
         </Container>
-        <Box mt={7} height={["350px", "500px", "600px"]}>
+        <Box mt={10} height={["350px", "500px", "600px"]}>
           <Swiper
             className="mySwiper"
             slidesPerView={1}
@@ -56,7 +56,7 @@ const diaryMoodBoard = () => {
             <SwiperSlide>
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["360px", "620px", "600px"]}
+                width={["360px", "620px", "700px"]}
                 height={["270px", "420px", "520px"]}
               >
                 <Image
@@ -73,7 +73,7 @@ const diaryMoodBoard = () => {
             <SwiperSlide>
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["360px", "620px", "600px"]}
+                width={["360px", "620px", "700px"]}
                 height={["270px", "420px", "520px"]}
               >
                 <Image
@@ -90,7 +90,7 @@ const diaryMoodBoard = () => {
             <SwiperSlide>
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["360px", "620px", "600px"]}
+                width={["360px", "620px", "700px"]}
                 height={["270px", "420px", "520px"]}
               >
                 <Image
@@ -124,7 +124,7 @@ const diaryMoodBoard = () => {
             </Box>
           </Stack>
         </Box>
-        <Box mt={7} height={["350px", "500px", "600px"]}>
+        <Box mt={10} height={["350px", "500px", "600px"]}>
           <Swiper
             className="mySwiper"
             slidesPerView={1}
@@ -135,7 +135,7 @@ const diaryMoodBoard = () => {
             <SwiperSlide>
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["360px", "620px", "600px"]}
+                width={["360px", "620px", "700px"]}
                 height={["270px", "420px", "520px"]}
               >
                 <Image
@@ -152,7 +152,7 @@ const diaryMoodBoard = () => {
             <SwiperSlide>
               <Box
                 className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["360px", "620px", "600px"]}
+                width={["360px", "620px", "700px"]}
                 height={["270px", "420px", "520px"]}
               >
                 <Image
