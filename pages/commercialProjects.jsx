@@ -26,7 +26,7 @@ const otherProjects = () => {
             </Box>
             <Box className="interior-project-subtitle-box">
               <Text className="interior-project-subtitle" width={"25rem"}>
-                commercial events & home staging
+                home staging & commercial events
               </Text>
             </Box>
             <Box className="interior-project-text-box">
@@ -144,7 +144,7 @@ const otherProjects = () => {
                               spacing="0.50rem"
                             >
                               <Text className="project-swiper-title project-palm-title">
-                                commercial
+                                commercial <br /> events
                               </Text>
 
                               <Text className="project-palm-text project-swiper-text">
