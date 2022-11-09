@@ -1,25 +1,38 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
-import { Box, Text, Stack } from "@chakra-ui/react";
+
+import { Box, Text, HStack, Container, Stack } from "@chakra-ui/react";
 
 //------ IMPORT COMPONENTS
 import Navbar from "../components/NavbarOther";
 
-import logo from "../dist/images/logo.png";
-//-------------- Import ICONS --------------
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Navigation } from "swiper";
 
-import { ImInstagram } from "react-icons/im";
+// import Swiper styles
+import "swiper/css";
+
+//----- IMPORT ICONS
+import { BsArrowLeftShort, BsArrowRightShort } from "react-icons/bs";
+import { IoIosPhoneLandscape } from "react-icons/io";
+
+// import internal pictures
+import PINKRETRO1 from "../dist/images/moodboard/PINK RETRO.png";
+import PINKRETRO2 from "../dist/images/moodboard/PINK RETRO1.png";
+import PINKRETRO3 from "../dist/images/moodboard/PINK RETRO2.png";
+import MontmartreADistance1 from "../dist/images/webp/Montmartre à distance.webp";
+import MontmartreADistance2 from "../dist/images/webp/Montmartre à distance 1.webp";
 
 const diaryMoodBoard = () => {
   return (
     <>
-      <section className="diary-moodBoard-page-section">
+      <section className="diary-projects-page-section">
         <nav>
           <Navbar />
         </nav>
-        <Box mt={10}>
-          <Stack justifyContent="center" alignItems="center">
+        <Container mt={10} className="interior-project-container">
+          <Stack justifyContent="center" alignItems="center" direction="column">
             <Box>
               <Text className="interior-project-title">MoodBoards</Text>
             </Box>
@@ -31,34 +44,146 @@ const diaryMoodBoard = () => {
               </Text>
             </Box>
           </Stack>
-        </Box>
-        <Stack justifyContent="center" alignItems="center">
-          <a href="/">
-            <Box mt={10} mb={10} className="logo-border" p={2}>
-              <Image
-                src={logo}
-                width="320px"
-                height="320px"
-                objectFit="cover"
-                alt="Cara Dear One Logo"
-                className="diary-logo-img"
-              />
-            </Box>
-          </a>
-        </Stack>
-
-        <Box mt={5} mb={5}>
-          <Stack
-            justifyContent="center"
-            alignItems="center"
-            spacing={5}
-            direction="row"
+        </Container>
+        <Box mt={7} height={["350px", "500px", "600px"]}>
+          <Swiper
+            className="mySwiper"
+            slidesPerView={1}
+            modules={[FreeMode, Navigation]}
+            loop={true}
+            spaceBetween={10}
           >
-            <Link href="https://www.instagram.com/caradearone/">
-              <Box>
-                <ImInstagram fontSize={18} color="#d9a563" />
+            <SwiperSlide>
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["360px", "620px", "600px"]}
+                height={["270px", "420px", "520px"]}
+              >
+                <Image
+                  priority
+                  src={PINKRETRO1}
+                  layout="fill"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
+                  alt="MoodBoard Projects Picture"
+                  className="diary-projects-img"
+                />
               </Box>
-            </Link>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["360px", "620px", "600px"]}
+                height={["270px", "420px", "520px"]}
+              >
+                <Image
+                  priority
+                  src={PINKRETRO2}
+                  layout="fill"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
+                  alt="MoodBoard Projects Picture"
+                  className="diary-projects-img"
+                />
+              </Box>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["360px", "620px", "600px"]}
+                height={["270px", "420px", "520px"]}
+              >
+                <Image
+                  priority
+                  src={PINKRETRO3}
+                  layout="fill"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
+                  alt="MoodBoard Projects Picture"
+                  className="diary-projects-img"
+                />
+              </Box>
+            </SwiperSlide>
+          </Swiper>
+        </Box>
+        <Box mt={["-1rem", "0rem", "0rem"]}>
+          <HStack justifyContent="center" alignItems="center">
+            <IoIosPhoneLandscape size="25px" />
+            <Text className="diary-text-discover-arrow">Flip your phone</Text>
+          </HStack>
+        </Box>
+
+        <Box mb={5}>
+          <Stack justifyContent="center" alignItems="center" direction="column">
+            <Box className="interior-project-bottom-swipe-box">
+              <HStack>
+                <BsArrowLeftShort className="arrow-swipe-icon" size="30px" />
+                <Text className="interior-project-bottom-swipe-text">next</Text>
+                <BsArrowRightShort className="arrow-swipe-icon" size="30px" />
+              </HStack>
+            </Box>
+          </Stack>
+        </Box>
+        <Box mt={7} height={["350px", "500px", "600px"]}>
+          <Swiper
+            className="mySwiper"
+            slidesPerView={1}
+            modules={[FreeMode, Navigation]}
+            loop={true}
+            spaceBetween={10}
+          >
+            <SwiperSlide>
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["360px", "620px", "600px"]}
+                height={["270px", "420px", "520px"]}
+              >
+                <Image
+                  priority
+                  src={MontmartreADistance1}
+                  layout="fill"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
+                  alt="MoodBoard Projects Picture"
+                  className="diary-projects-img"
+                />
+              </Box>
+            </SwiperSlide>
+            <SwiperSlide>
+              <Box
+                className="diary-project-swiper-box diary-project-text-hover-section"
+                width={["360px", "620px", "600px"]}
+                height={["270px", "420px", "520px"]}
+              >
+                <Image
+                  priority
+                  src={MontmartreADistance2}
+                  layout="fill"
+                  placeholder="blur"
+                  blurDataURL="./dist/images/blur.png"
+                  alt="MoodBoard Projects Picture"
+                  className="diary-projects-img"
+                />
+              </Box>
+            </SwiperSlide>
+          </Swiper>
+        </Box>
+        <Box mt={["-1rem", "0rem", "0rem"]}>
+          <HStack justifyContent="center" alignItems="center">
+            <IoIosPhoneLandscape size="25px" />
+            <Text className="diary-text-discover-arrow">Flip your phone</Text>
+          </HStack>
+        </Box>
+
+        <Box mb={5}>
+          <Stack justifyContent="center" alignItems="center" direction="column">
+            <Box className="interior-project-bottom-swipe-box">
+              <HStack>
+                <BsArrowLeftShort className="arrow-swipe-icon" size="30px" />
+                <Text className="interior-project-bottom-swipe-text">next</Text>
+                <BsArrowRightShort className="arrow-swipe-icon" size="30px" />
+              </HStack>
+            </Box>
           </Stack>
         </Box>
       </section>

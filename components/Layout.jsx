@@ -9,13 +9,18 @@ export default function Layout({ children }) {
     <>
       <Head>
         {/* <!-- Primary Meta Tags --> */}
+        <meta charset="UTF-8" />
         <title>cara.DEARONE - interior design</title>
+        <meta
+          name="keywords"
+          content="Interior design, Interior, Home interior, Designer, Interior decoration, Home staging, Commercial events, House decorator,Home decor, Interior design ideas, Paint living room, Interior architect"
+        />
         <meta name="title" content="cara.DEARONE - interior design" />
         <meta
           name="description"
-          content="      We design the interior to bring new perspectives and an
-                aesthetic look."
+          content="We guide you to design the ideal interior that reflects your way of living, by adapting perfectly to you and your needs.Selling your place?  We clean, decorate, rearrange furniture to present your home in the best possible way. Let’s build that homey feeling together."
         />
+
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* <!-- FACICON -->  */}
         <link rel="shortcut icon" href="/favicon.ico" />
@@ -32,8 +37,9 @@ export default function Layout({ children }) {
         <meta property="og:title" content="cara.DEARONE" />
         <meta
           property="og:description"
-          content="      We design the interior to bring new perspectives and an
-                aesthetic look."
+          content="We guide you to design the ideal interior that reflects your way of living, by adapting perfectly to you and your needs.
+
+Selling your place?  We clean, decorate, rearrange furniture to present your home in the best possible way. Let’s build that homey feeling together."
         />
         <meta
           property="og:image"
@@ -46,8 +52,9 @@ export default function Layout({ children }) {
         <meta property="twitter:title" content="cara.DEARONE" />
         <meta
           property="twitter:description"
-          content="      We design the interior to bring new perspectives and an
-                aesthetic look."
+          content="We guide you to design the ideal interior that reflects your way of living, by adapting perfectly to you and your needs.
+
+Selling your place?  We clean, decorate, rearrange furniture to present your home in the best possible way. Let’s build that homey feeling together."
         />
         <meta
           property="twitter:image"
