@@ -45,6 +45,17 @@ const diaryMoodBoard = () => {
             </Box>
           </Stack>
         </Container>
+        <Stack justifyContent="center" alignItems="center" mt={10}>
+          <Box className="interior-project-text-box">
+            <Text
+              className="interior-project-title"
+              width={"22rem"}
+              fontSize={["15px", "15px", "17px"]}
+            >
+              PINK RETRO
+            </Text>
+          </Box>
+        </Stack>
         <Box mt={10} height={["350px", "500px", "600px"]}>
           <Swiper
             className="mySwiper"
@@ -124,6 +135,17 @@ const diaryMoodBoard = () => {
             </Box>
           </Stack>
         </Box>
+        <Stack justifyContent="center" alignItems="center" mt={10}>
+          <Box className="interior-project-text-box">
+            <Text
+              className="interior-project-title"
+              width={"22rem"}
+              fontSize={["15px", "15px", "17px"]}
+            >
+              MONTMARTRE À DISTANCE
+            </Text>
+          </Box>
+        </Stack>
         <Box mt={10} height={["350px", "500px", "600px"]}>
           <Swiper
             className="mySwiper"
