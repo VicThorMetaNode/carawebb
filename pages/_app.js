@@ -32,15 +32,13 @@ function MyApp({ Component, pageProps }) {
   //   }
   // }, [router.events])
   return (
-    <>
+    <> 
+  
       
       <ChakraProvider>
         <Layout>
-        <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-      />
-      <Script
+       
+      {/* <Script
         id="google-analytics"
         strategy="lazyOnload"
         dangerouslySetInnerHTML={{
@@ -53,7 +51,20 @@ function MyApp({ Component, pageProps }) {
           });
         `,
         }}
-      />
+      /> */}
+        <Script
+    strategy="lazyOnload"
+    src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+  />
+        <Script strategy="lazyOnload" id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
+        `}
+      </Script>
           <Component {...pageProps} />
         </Layout>
       </ChakraProvider>
