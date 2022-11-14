@@ -129,12 +129,6 @@ const diaryProjects = () => {
                   </Box>
                 )}
               </a>
-
-              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
-              //   <Stack justifyContent="center" alignItems="center">
-              //     <Text className="diary-project-text-hover">Belgium</Text>
-              //   </Stack>
-              // </Box> */}
             </SwiperSlide>
             <SwiperSlide>
               <a onClick={() => setShowCity(!showCity)}>

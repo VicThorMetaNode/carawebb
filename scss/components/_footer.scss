@@ -1,61 +1,50 @@
 /*--------- GENERAL CUSTOMIZE  --------*/
 .cookie-footer-section {
-    background-color: transparent ;
-//    height: 20px;
-   position: absolute;
-   bottom: 0px;
+  background-color: transparent;
+  //    height: 20px;
+  position: absolute;
+  bottom: 0px;
 }
-
-// .logo-img-test-box {
-//    background-color: royalblue;
-     
-//  }
- 
 
 .test-right {
-
-   right: 0px;  
+  right: 0px;
 }
 
-
-
-
 /*--------- MODAL TEXT  --------*/
-.cookie-text-click{
-    font-family: var(--ft-gothic) ;
-    font-size: var(--font-size-12) !important;
-    color: var(--clr-btn-other);
-    text-transform:lowercase;
-    text-decoration: underline;
+.cookie-text-click {
+  font-family: var(--ft-gothic);
+  font-size: var(--font-size-12) !important;
+  color: var(--clr-btn-other);
+  text-transform: lowercase;
+  text-decoration: underline;
 }
 
 .cookie-modal-title {
-    font-family: var(--ft-cara-title);
+  font-family: var(--ft-cara-title);
   font-size: var(--font-size-20) !important;
   color: var(--clr-txt-black-dark);
- 
+
   font-weight: 600;
   letter-spacing: 0.1px;
   text-transform: uppercase;
 }
 
-.cookie-modal-text{
-    font-family: var(--ft-cara-text);
+.cookie-modal-text {
+  font-family: var(--ft-cara-text);
   font-size: var(--font-size-13);
   color: var(--clr-txt-black-dark);
-  
+
   font-weight: 400;
 }
 
-.cookie-modal-text-capitalize{
-    text-transform: uppercase;
+.cookie-modal-text-capitalize {
+  text-transform: uppercase;
 }
 
 .cookie-modal-external-link {
-    font-family: var(--ft-cara-text);
-    font-size: var(--font-size-13);
-    color: var(--clr-txt-black-light);
-    font-weight: 600;
-    text-decoration: underline;
+  font-family: var(--ft-cara-text);
+  font-size: var(--font-size-13);
+  color: var(--clr-txt-black-light);
+  font-weight: 600;
+  text-decoration: underline;
 }
-

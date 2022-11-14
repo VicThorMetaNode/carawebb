@@ -33,13 +33,16 @@ function MyApp({ Component, pageProps }) {
   // }, [router.events])
   return (
     <>
-      <Script
-        strategy="afterInteractive"
+      
+      <ChakraProvider>
+        <Layout>
+        <Script
+        strategy="lazyOnload"
         src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
       <Script
         id="google-analytics"
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         dangerouslySetInnerHTML={{
           __html: `
           window.dataLayer = window.dataLayer || [];
@@ -51,8 +54,6 @@ function MyApp({ Component, pageProps }) {
         `,
         }}
       />
-      <ChakraProvider>
-        <Layout>
           <Component {...pageProps} />
         </Layout>
       </ChakraProvider>

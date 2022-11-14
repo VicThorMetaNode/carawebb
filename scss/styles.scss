@@ -1,6 +1,7 @@
 // @use '../scss/base'; //no need to specify more cause sass will search for the index.sass in which everything is listed
 // @use '../scss/components/buttons' //need to specify each folder in the path cause no index.sass folder 
 
+//LISTING ALL PAGES WITH 'forward' 
 @forward 'base';
 @forward 'pages';
 

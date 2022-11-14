@@ -88,7 +88,7 @@ const interiorProjects = () => {
                       src={PalmlPict}
                       layout="fill"
                       placeholder="blur"
-                      blurDataURL="./dist/images/blur.png"
+                      blurDataURL="../dist/images/webp/blur.webp"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />
@@ -157,7 +157,7 @@ const interiorProjects = () => {
                       src={PalmlPict}
                       layout="fill"
                       placeholder="blur"
-                      blurDataURL="./dist/images/blur.png"
+                      blurDataURL="../dist/images/webp/blur.webp"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />
@@ -223,7 +223,7 @@ const interiorProjects = () => {
                       src={PalmlPict}
                       layout="fill"
                       placeholder="blur"
-                      blurDataURL="./dist/images/blur.png"
+                      blurDataURL="../dist/images/webp/blur.webp"
                       alt="Palm Picture by Augustine Wong"
                       className="img-palm "
                     />
