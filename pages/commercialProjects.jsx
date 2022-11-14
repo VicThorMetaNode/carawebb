@@ -7,6 +7,7 @@ import { Box, Text, Container, Stack } from "@chakra-ui/react";
 //------ IMPORT COMPONENTS
 import Navbar from "../components/NavbarOther";
 import PalmlPict from "../dist/images/augustine-wong-T0BYurbDK_M-unsplash.jpg";
+import Blur from "../dist/images/webp/blur.webp";
 
 const otherProjects = () => {
   //TAP TO DISCOVER
@@ -72,7 +73,7 @@ const otherProjects = () => {
                       ) : (
                         <Box className="project-palm-section">
                           <Image
-                            src={PalmlPict}
+                            src={Blur}
                             width="330px"
                             height="330px"
                             placeholder="blur"
