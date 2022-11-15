@@ -73,11 +73,11 @@ const otherProjects = () => {
                       ) : (
                         <Box className="project-palm-section">
                           <Image
-                            src={Blur}
+                            src={PalmlPict}
                             width="330px"
                             height="330px"
                             placeholder="blur"
-                            blurDataURL="./dist/images/blur.png"
+                            blurDataURL="dist/images/webp/blur.webp"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"
                           />
@@ -133,7 +133,7 @@ const otherProjects = () => {
                             width="330px"
                             height="330px"
                             placeholder="blur"
-                            blurDataURL="./dist/images/blur.png"
+                            blurDataURL="dist/images/webp/blur.webp"
                             alt="Palm Picture by Augustine Wong"
                             className="img-palm"
                           />
