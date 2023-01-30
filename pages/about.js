@@ -141,7 +141,7 @@ const about = () => {
               as an endless wanderer I'm constantly on the move...
               <br />
               currently  in{" "}
-              <span className="about-current-city">Costa Rica</span>
+              <span className="about-current-city">Brussels</span>
             </Text>
           </Stack>
         </Box>
