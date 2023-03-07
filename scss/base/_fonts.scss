@@ -1,6 +1,8 @@
 /* import-FONTS FAMILY */
 @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display+SC&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @font-face {
     font-family: glacial;
     src: url(../../dist/fonts/GlacialIndifference-Regular.otf);
@@ -35,6 +37,8 @@
   --ft-cara-title: 'Playfair Display SC', serif;
   --ft-cara-text: 'Kumbh Sans', sans-serif;
   --ft-gothic: 'Gothic A1', sans-serif;
+  --ft-portfolio: 'Poppins', sans-serif;
+
   
 }
 

@@ -19,6 +19,7 @@
     "@next/bundle-analyzer": "^13.0.2",
     "framer-motion": "^7.0.0",
     "next": "12.2.4",
+    "next-videos": "^1.4.1",
     "nextjs-google-analytics": "^2.2.0",
     "purgecss": "^5.0.0",
     "react": "18.2.0",

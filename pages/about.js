@@ -143,6 +143,13 @@ const about = () => {
               currently  in{" "}
               <span className="about-current-city">Brussels</span>
             </Text>
+            <Text
+              className="about-current-city-text"
+              fontSize={["13px", "15px", "15px"]}
+              fontWeight={"bold"}
+            >
+              check my next destination on our  <a href="https://www.instagram.com/caradearone/">Instagram page</a>!
+            </Text>
           </Stack>
         </Box>
 

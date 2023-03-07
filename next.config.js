@@ -10,5 +10,8 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
 
 module.exports = withBundleAnalyzer(nextConfig)
 
+// next.config.js
+const withVideos = require('next-videos')
 
+module.exports = withVideos()
 
