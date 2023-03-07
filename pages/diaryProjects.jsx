@@ -35,11 +35,6 @@ import project16 from "../dist/images/webp/RIVA-4.webp";
 import project17 from "../dist/images/webp/RIVA-5.webp";
 import project18 from "../dist/images/webp/RIVA-6-.webp";
 
-// import internal vids
-import riva from "../dist/vid/riva.mov";
-import meeting from "../dist/vid/meeting.mov";
-import pilates from "../dist/vid/pilates.mov";
-
 const diaryProjects = () => {
   //TAP TO DISCOVER
   return (
@@ -217,11 +212,6 @@ const diaryProjects = () => {
                   </Stack>
                 </Box>
               </Box>
-              {/* // <Box className="diary-project-text-hover-box" py={2} px={3}>
-              //   <Stack justifyContent="center" alignItems="center">
-              //     <Text className="diary-project-text-hover">Belgium</Text>
-              //   </Stack>
-              // </Box> */}
             </SwiperSlide>
             <SwiperSlide>
               <Box
@@ -334,19 +324,6 @@ const diaryProjects = () => {
               //   </Stack>
               // </Box> */}
             </SwiperSlide>
-            {/* <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["320px", "500px", "600px"]}
-                height={["330px", "500px", "600px"]}
-              >
-                <video
-                  autoPlay
-                  src={require("../dist/vid/riva.mp4")}
-                  layout="fill"
-                />
-              </Box>
-            </SwiperSlide> */}
 
             <SwiperSlide>
               <Box
@@ -528,19 +505,6 @@ const diaryProjects = () => {
                 </Box>
               </Box>
             </SwiperSlide>
-            {/* <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["320px", "600px"]}
-                height={["330px", "600px"]}
-              >
-                <video
-                  autoPlay
-                  src={require("../dist/vid/meeting.mp4")}
-                  layout="fill"
-                />
-              </Box>
-            </SwiperSlide> */}
 
             <SwiperSlide>
               <Box
@@ -723,19 +687,6 @@ const diaryProjects = () => {
                 </Box>
               </Box>
             </SwiperSlide>
-            {/* <SwiperSlide>
-              <Box
-                className="diary-project-swiper-box diary-project-text-hover-section"
-                width={["320px", "500px", "600px"]}
-                height={["330px", "500px", "600px"]}
-              >
-                <video
-                  autoPlay
-                  src={require("../dist/vid/pilates.mp4")}
-                  layout="fill"
-                />
-              </Box>
-            </SwiperSlide> */}
           </Swiper>
         </Box>
 
