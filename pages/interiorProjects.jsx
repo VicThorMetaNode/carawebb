@@ -69,8 +69,10 @@ const interiorProjects = () => {
                         </Box>
                         <Box>
                           <Text className="project-swiper-text">
-                            We listen to your lifestyle desires and give our
-                            first suggestions and tips.
+                            we prioritize your lifestyle and desires. We begin
+                            by actively listening to your needs, and then offer
+                            expert advice and tailored recommendations to ensure
+                            your vision is fully realized.
                           </Text>
                         </Box>
                         <Box></Box>
@@ -132,15 +134,16 @@ const interiorProjects = () => {
                         </Box>
                         <Box>
                           <Text className="project-swiper-text standard">
-                            We listen to your lifestyle, and desires. We then
-                            present you with a Mood Board adapted to your
-                            specific needs. When we have redefined the wanted
-                            style, we present you personalized visuals (layout
-                            plan, sketches, or 3D views) as well as samples.{" "}
-                            <br /> <br /> We guide you through the process of
-                            buying new furniture, flooring, decorating elements
-                            and coverings. This is included with a global price
-                            estimation.
+                            we prioritize your unique lifestyle and desires. Our
+                            process begins with attentive listening, followed by
+                            the creation of a custom Mood Board tailored to your
+                            specific needs. Once we have established the desired
+                            style, we present personalized visuals such as
+                            layout plans, sketches, or 3D views, along with a
+                            range of samples. We guide you through the entire
+                            process of selecting new furniture, flooring,
+                            decorative elements, and coverings. This includes a
+                            shopping list.
                           </Text>
                         </Box>
                         <Box></Box>
@@ -204,9 +207,10 @@ const interiorProjects = () => {
                         </Box>
                         <Box>
                           <Text className="project-swiper-text">
-                            Don't want to think about anything? We do all the
-                            heavy lifting for you. All you have to do is sit
-                            back and relax.
+                            Are you looking for a stress-free experience? We've
+                            got you covered. We handle all the heavy lifting, so
+                            you can simply sit back, relax, and watch your
+                            vision come to life.
                           </Text>
                         </Box>
                         <Box></Box>
@@ -315,8 +319,7 @@ const interiorProjects = () => {
                 className="interior-project-bottom-textOne"
                 width={["15rem", "20rem", "auto"]}
               >
-                Not sure? <br /> Let's hop on a free discovery call to discuss
-                your needs
+                swipe to discover our packages
               </Text>
             </Box>
             <Box className="interior-project-bottom-button-box">
@@ -326,7 +329,7 @@ const interiorProjects = () => {
             </Box>
             <Box>
               <Text className="interior-project-bottom-textTwo">
-                projects can be done remotely if desired*
+                Our services are also available remotely (online).
               </Text>
             </Box>
           </Stack>

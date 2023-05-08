@@ -40,15 +40,14 @@
   font-weight: 600;
 }
 
-// .about-page-bottom-quote-div{
-
+.about-page-bottom-quote-div{
+margin-bottom: 8px;
   
-// }
+}
 
 .about-page-bottom-quote {
   font-family: var(--ft-cara-title);
   font-weight: 600;
-  white-space: nowrap;
 }
 
 .about-page-bottom-btn {
@@ -127,7 +126,7 @@
 .about-current-city-text {
   font-family: var(--ft-cara-text);
   color: var(--clr-txt-black-dark);
-  
+  max-width: 40rem;
   font-weight: 200;
 }
 

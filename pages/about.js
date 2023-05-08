@@ -3,15 +3,13 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 
 import { Box, Text, Stack, Flex } from "@chakra-ui/react";
-
+import { ImInstagram } from "react-icons/im";
 //------ IMPORT COMPONENTS
-
 
 import aboutPict2 from "../dist/images/iMG_6599.jpg";
 
 //LAZY IMPORT: import this part lately
 const Navbar = dynamic(() => import("../components/NavbarOther"));
-
 
 const about = () => {
   //TOGGLE
@@ -55,17 +53,27 @@ const about = () => {
                       others need something vibrant, where they can host
                       memorable dinner parties with friends.
                       <br /> <br />
-                      Our job , and passion, is to make sure you are feeling "at
-                      home". Whatever that means for you.
+                      No matter what "home" means to you, we are here to help
+                      you achieve it.
                     </Text>
                     <Box className="about-page-bottom-quote-div" mt={2}>
                       <Text
                         className="about-page-bottom-quote"
                         fontSize={["13px", "17px", "17px"]}
                       >
-                        " We believe in the beauty of simplicity".
+                        We believe that beauty lies in simplicity and strive to
+                        create spaces that are both functional and aesthetically
+                        pleasing.
                       </Text>
                     </Box>
+                    <Text
+                      className="about-page-text-partOne-readMore"
+                      fontSize={["13px", "17px", "17px"]}
+                    >
+                      Whether you're starting from scratch or simply looking to
+                      revamp a specific space, we're passionate about making
+                      sure you feel completely at home.
+                    </Text>
                   </>
                 )}
               </Text>
@@ -106,27 +114,28 @@ const about = () => {
                 className="about-page-partTwo-textRight"
                 fontSize={["14px", "17px", "17px"]}
               >
-                Born and raised in Brussels but lived in many different cities
-                around the globe.
+                Having grown up in Brussels, I've been fortunate enough to live
+                in various cities across the globe, making me a true world
+                traveller.
                 <br /> <br />
-                I have a degree in communications, an MBA in Hotel Management,
-                and an in-depth training in interior design.
+                With a degree in communications, an MBA in Hotel Management, and
+                an in-depth training and passion in interior design, my journey
+                as an interior designer began unexpectedly during the pandemic
                 <br /> <br />
-                My interior designer journey started when I was blocked in my
-                bungalow in Los Angeles during the pandemic. Due the situation I
-                had to design my own entire apartment from distance (located in
-                Brussels).
+                Stuck in my bungalow in Los Angeles, I faced the challenge of
+                designing my own apartment in Brussels from afar. Despite the
+                distance and the unique circumstances, I found myself thoroughly
+                enjoying the process and was thrilled with the end result.
                 <br /> <br />
-                <br />
-                When doing so, I really loved the process and was thrilled about
-                the result!
-                <br /> <br />
-                This opportunity gave me the strength and the inspiration to do
-                it for others, and this is how cara.
+                This experience sparked a newfound inspiration and drive to
+                share my passion with others, and thus, cara.
                 <span className="about-page-dearOne-capitalize">
-                  DEAR ONE
+                  DEAR ONE{" "}
                 </span>{" "}
                 was born.
+                <br /> <br />I am now dedicated to providing unique interior
+                design services that bring comfort, beauty, and functionality to
+                each unique space.
               </Text>
             </Box>
           </Flex>
@@ -138,18 +147,14 @@ const about = () => {
               className="about-current-city-text"
               fontSize={["15px", "17px", "21px"]}
             >
-              as an endless wanderer I'm constantly on the move...
-              <br />
-              currently  in{" "}
-              <span className="about-current-city">Brussels</span>
+              As a perpetual wanderer, I'm always on the go. <br /> Follow our
+              Instagram page to keep up with the latest adventures and
+              destinations!
             </Text>
-            <Text
-              className="about-current-city-text"
-              fontSize={["13px", "15px", "15px"]}
-              fontWeight={"bold"}
-            >
-              check my next destination on our  <a href="https://www.instagram.com/caradearone/">Instagram page</a>!
-            </Text>
+
+            <a href="https://www.instagram.com/caradearone/">
+              <ImInstagram size={"2rem"} color="grey" />
+            </a>
           </Stack>
         </Box>
 

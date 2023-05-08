@@ -118,7 +118,7 @@ const NavbarOther = () => {
                                 interior projects
                               </Link>
                             </MenuItem>
-                            <MenuItem
+                            {/* <MenuItem
                               justifyContent="right"
                               alignItems="right"
                               textAlign={"right"}
@@ -130,7 +130,7 @@ const NavbarOther = () => {
                               <Link href="/commercialProjects">
                                 home staging & commercial events
                               </Link>
-                            </MenuItem>{" "}
+                            </MenuItem>{" "} */}
                           </>
                         )}
                       </MenuGroup>

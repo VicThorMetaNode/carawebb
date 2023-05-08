@@ -144,6 +144,13 @@ const diaryMoodBoard = () => {
             >
               MONTMARTRE À DISTANCE
             </Text>
+            <Text
+              className="interior-project-title"
+              width={"22rem"}
+              fontSize={["15px", "15px", "17px"]}
+            >
+              MINI BUDGET
+            </Text>
           </Box>
         </Stack>
         <Box mt={10} height={["350px", "500px", "600px"]}>
